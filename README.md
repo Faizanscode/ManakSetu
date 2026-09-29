@@ -1,6 +1,6 @@
-# 🇮🇳 ManakSetu
+ManakSetu
 
-### AI-Powered Recommendation Engine for Identifying Applicable Indian Standards for Procurement Specifications
+AI-Powered Recommendation Engine for Identifying Applicable Indian Standards for Procurement Specifications
 
 > **Connecting Procurement Requirements with the Right Indian Standards**
 
