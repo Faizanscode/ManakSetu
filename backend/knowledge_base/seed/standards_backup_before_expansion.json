@@ -1,0 +1,2387 @@
+{
+  "sectors": [
+    {
+      "id": "SEC-CIVIL",
+      "name": "Civil Engineering",
+      "description": "Standards related to civil engineering, construction materials, and structures."
+    },
+    {
+      "id": "SEC-ELEC",
+      "name": "Electrical Engineering",
+      "description": "Electrical systems, components, and equipment."
+    },
+    {
+      "id": "SEC-MECH",
+      "name": "Mechanical Engineering",
+      "description": "Mechanical systems, machinery, and valves."
+    },
+    {
+      "id": "SEC-SAFE",
+      "name": "Industrial Safety",
+      "description": "Personal protective equipment and safety standards."
+    },
+    {
+      "id": "SEC-PLUMB",
+      "name": "Water and Sanitation",
+      "description": "Plumbing, pipes, and sanitation systems."
+    }
+  ],
+  "categories": [
+    {
+      "id": "CAT-CONCRETE",
+      "name": "Concrete and Cement",
+      "description": "Concrete, cement, and related materials.",
+      "sector_id": "SEC-CIVIL"
+    },
+    {
+      "id": "CAT-STEEL",
+      "name": "Structural Steel",
+      "description": "Steel structures and reinforcement.",
+      "sector_id": "SEC-CIVIL"
+    },
+    {
+      "id": "CAT-BRICKS",
+      "name": "Bricks and Blocks",
+      "description": "Masonry and building units.",
+      "sector_id": "SEC-CIVIL"
+    },
+    {
+      "id": "CAT-TILES",
+      "name": "Tiles and Flooring",
+      "description": "Ceramic, vitrified, and other flooring tiles.",
+      "sector_id": "SEC-CIVIL"
+    },
+    {
+      "id": "CAT-PAINTS",
+      "name": "Paints and Coatings",
+      "description": "Paints, enamels, and varnishes.",
+      "sector_id": "SEC-CIVIL"
+    },
+    {
+      "id": "CAT-WOOD",
+      "name": "Doors, Windows, and Wood",
+      "description": "Plywood, flush doors, frames.",
+      "sector_id": "SEC-CIVIL"
+    },
+    {
+      "id": "CAT-PIPES",
+      "name": "Pipes and Plumbing",
+      "description": "PVC, steel pipes, and sanitaryware.",
+      "sector_id": "SEC-PLUMB"
+    },
+    {
+      "id": "CAT-CABLES",
+      "name": "Electrical Cables",
+      "description": "Wiring and insulated cables.",
+      "sector_id": "SEC-ELEC"
+    },
+    {
+      "id": "CAT-ELECEQ",
+      "name": "Electrical Equipment",
+      "description": "Switches, appliances, and installations.",
+      "sector_id": "SEC-ELEC"
+    },
+    {
+      "id": "CAT-VALVES",
+      "name": "Valves and Fittings",
+      "description": "Sluice, butterfly, and check valves.",
+      "sector_id": "SEC-MECH"
+    },
+    {
+      "id": "CAT-PPE",
+      "name": "Personal Protective Equipment",
+      "description": "Helmets, footwear, and safety gear.",
+      "sector_id": "SEC-SAFE"
+    }
+  ],
+  "standards": [
+    {
+      "id": "IS-456",
+      "standard_number": "IS 456 : 2000",
+      "title": "Plain and Reinforced Concrete - Code of Practice",
+      "short_description": "General requirements for the design and construction of plain and reinforced concrete.",
+      "sector_id": "SEC-CIVIL",
+      "category_id": "CAT-CONCRETE",
+      "status": "CURRENT"
+    },
+    {
+      "id": "IS-800",
+      "standard_number": "IS 800 : 2007",
+      "title": "General Construction in Steel - Code of Practice",
+      "short_description": "General practice for structural steel design.",
+      "sector_id": "SEC-CIVIL",
+      "category_id": "CAT-STEEL",
+      "status": "CURRENT"
+    },
+    {
+      "id": "IS-1077",
+      "standard_number": "IS 1077 : 1992",
+      "title": "Common Burnt Clay Building Bricks - Specification",
+      "short_description": "Specification for common burnt clay building bricks.",
+      "sector_id": "SEC-CIVIL",
+      "category_id": "CAT-BRICKS",
+      "status": "CURRENT"
+    },
+    {
+      "id": "IS-383",
+      "standard_number": "IS 383 : 2016",
+      "title": "Coarse and Fine Aggregate for Concrete - Specification",
+      "short_description": "Specification for naturally sourced aggregates for concrete.",
+      "sector_id": "SEC-CIVIL",
+      "category_id": "CAT-CONCRETE",
+      "status": "CURRENT"
+    },
+    {
+      "id": "IS-1786",
+      "standard_number": "IS 1786 : 2008",
+      "title": "High Strength Deformed Steel Bars and Wires for Concrete Reinforcement - Specification",
+      "short_description": "Requirements for high strength deformed steel bars.",
+      "sector_id": "SEC-CIVIL",
+      "category_id": "CAT-STEEL",
+      "status": "CURRENT"
+    },
+    {
+      "id": "IS-1489-1",
+      "standard_number": "IS 1489 (Part 1) : 2015",
+      "title": "Portland Pozzolana Cement - Specification Part 1 Fly Ash Based",
+      "short_description": "Specification for fly ash based Portland pozzolana cement.",
+      "sector_id": "SEC-CIVIL",
+      "category_id": "CAT-CONCRETE",
+      "status": "CURRENT"
+    },
+    {
+      "id": "IS-2062",
+      "standard_number": "IS 2062 : 2011",
+      "title": "Hot Rolled Medium and High Tensile Structural Steel - Specification",
+      "short_description": "Specification for hot rolled structural steel.",
+      "sector_id": "SEC-CIVIL",
+      "category_id": "CAT-STEEL",
+      "status": "CURRENT"
+    },
+    {
+      "id": "IS-4926",
+      "standard_number": "IS 4926 : 2003",
+      "title": "Ready-Mixed Concrete - Code of Practice",
+      "short_description": "Requirements for ready-mixed concrete.",
+      "sector_id": "SEC-CIVIL",
+      "category_id": "CAT-CONCRETE",
+      "status": "CURRENT"
+    },
+    {
+      "id": "IS-516",
+      "standard_number": "IS 516 : 1959",
+      "title": "Method of Tests for Strength of Concrete",
+      "short_description": "Procedures for testing the strength of concrete.",
+      "sector_id": "SEC-CIVIL",
+      "category_id": "CAT-CONCRETE",
+      "status": "CURRENT"
+    },
+    {
+      "id": "IS-10262",
+      "standard_number": "IS 10262 : 2019",
+      "title": "Concrete Mix Proportioning - Guidelines",
+      "short_description": "Guidelines for concrete mix proportioning.",
+      "sector_id": "SEC-CIVIL",
+      "category_id": "CAT-CONCRETE",
+      "status": "CURRENT"
+    },
+    {
+      "id": "IS-2212",
+      "standard_number": "IS 2212 : 1991",
+      "title": "Code of Practice for Brickwork",
+      "short_description": "General code of practice for brickwork construction.",
+      "sector_id": "SEC-CIVIL",
+      "category_id": "CAT-BRICKS",
+      "status": "CURRENT"
+    },
+    {
+      "id": "IS-3370-1",
+      "standard_number": "IS 3370 (Part 1) : 2021",
+      "title": "Concrete Structures for Storage of Liquids - Code of Practice - Part 1 General Requirements",
+      "short_description": "General requirements for design and construction of liquid storage structures.",
+      "sector_id": "SEC-CIVIL",
+      "category_id": "CAT-CONCRETE",
+      "status": "CURRENT"
+    },
+    {
+      "id": "IS-12269",
+      "standard_number": "IS 12269 : 2013",
+      "title": "Ordinary Portland Cement, 53 Grade - Specification",
+      "short_description": "Specification for 53 grade ordinary Portland cement.",
+      "sector_id": "SEC-CIVIL",
+      "category_id": "CAT-CONCRETE",
+      "status": "CURRENT"
+    },
+    {
+      "id": "IS-8112",
+      "standard_number": "IS 8112 : 2013",
+      "title": "Ordinary Portland Cement, 43 Grade - Specification",
+      "short_description": "Specification for 43 grade ordinary Portland cement.",
+      "sector_id": "SEC-CIVIL",
+      "category_id": "CAT-CONCRETE",
+      "status": "CURRENT"
+    },
+    {
+      "id": "IS-269",
+      "standard_number": "IS 269 : 2015",
+      "title": "Ordinary Portland Cement - Specification",
+      "short_description": "Specification for 33 grade ordinary Portland cement.",
+      "sector_id": "SEC-CIVIL",
+      "category_id": "CAT-CONCRETE",
+      "status": "CURRENT"
+    },
+    {
+      "id": "IS-15622",
+      "standard_number": "IS 15622 : 2017",
+      "title": "Pressed Ceramic Tiles \u2014 Specification",
+      "short_description": "Specification for pressed ceramic tiles (glazed and unglazed) for walls and floors.",
+      "sector_id": "SEC-CIVIL",
+      "category_id": "CAT-TILES",
+      "status": "CURRENT"
+    },
+    {
+      "id": "IS-13712",
+      "standard_number": "IS 13712 : 2019",
+      "title": "Ceramic Tiles \u2014 Definitions, Classifications, Characteristics and Marking",
+      "short_description": "Definitions and classification for ceramic tiles.",
+      "sector_id": "SEC-CIVIL",
+      "category_id": "CAT-TILES",
+      "status": "CURRENT"
+    },
+    {
+      "id": "IS-504",
+      "standard_number": "IS 504 : 2020",
+      "title": "Ceramic Glazed Tiles \u2014 Specification",
+      "short_description": "Specification specifically covering ceramic glazed tiles.",
+      "sector_id": "SEC-CIVIL",
+      "category_id": "CAT-TILES",
+      "status": "CURRENT"
+    },
+    {
+      "id": "IS-13630",
+      "standard_number": "IS 13630 (Part 1) : 2019",
+      "title": "Ceramic Tiles \u2014 Methods of Test, Part 1",
+      "short_description": "Test methods for determining dimensions and surface quality of ceramic tiles.",
+      "sector_id": "SEC-CIVIL",
+      "category_id": "CAT-TILES",
+      "status": "CURRENT"
+    },
+    {
+      "id": "IS-4457",
+      "standard_number": "IS 4457 : 2007",
+      "title": "Specification for Ceramic Unglazed Vitreous Acid-Resisting Tiles",
+      "short_description": "Specification for acid-resisting ceramic unglazed vitreous tiles.",
+      "sector_id": "SEC-CIVIL",
+      "category_id": "CAT-TILES",
+      "status": "CURRENT"
+    },
+    {
+      "id": "IS-15489",
+      "standard_number": "IS 15489 : 2004",
+      "title": "Plastic Emulsion Paint \u2014 Specification",
+      "short_description": "Specification for plastic emulsion paint for interior and exterior use.",
+      "sector_id": "SEC-CIVIL",
+      "category_id": "CAT-PAINTS",
+      "status": "CURRENT"
+    },
+    {
+      "id": "IS-2932",
+      "standard_number": "IS 2932 : 2003",
+      "title": "Enamel, Synthetic, Exterior: (a) Undercoating (b) Finishing \u2014 Specification",
+      "short_description": "Specification for synthetic enamel paint for exterior use.",
+      "sector_id": "SEC-CIVIL",
+      "category_id": "CAT-PAINTS",
+      "status": "CURRENT"
+    },
+    {
+      "id": "IS-2339",
+      "standard_number": "IS 2339 : 2020",
+      "title": "Aluminium Paint for General Purposes, in Dual Container \u2014 Specification",
+      "short_description": "Specification for dual-container aluminium paint.",
+      "sector_id": "SEC-CIVIL",
+      "category_id": "CAT-PAINTS",
+      "status": "CURRENT"
+    },
+    {
+      "id": "IS-133",
+      "standard_number": "IS 133 : 2013",
+      "title": "Enamel, Interior: (a) Undercoating (b) Finishing \u2014 Specification",
+      "short_description": "Specification for interior enamel paint.",
+      "sector_id": "SEC-CIVIL",
+      "category_id": "CAT-PAINTS",
+      "status": "CURRENT"
+    },
+    {
+      "id": "IS-5410",
+      "standard_number": "IS 5410 : 1992",
+      "title": "Cement Paint \u2014 Specification",
+      "short_description": "Specification for cement paint for exterior wall finishes.",
+      "sector_id": "SEC-CIVIL",
+      "category_id": "CAT-PAINTS",
+      "status": "CURRENT"
+    },
+    {
+      "id": "IS-4985",
+      "standard_number": "IS 4985 : 2021",
+      "title": "Unplasticized PVC (uPVC) Pipes for Potable Water Supplies \u2014 Specification",
+      "short_description": "Specification for uPVC pipes used in potable water systems.",
+      "sector_id": "SEC-PLUMB",
+      "category_id": "CAT-PIPES",
+      "status": "CURRENT"
+    },
+    {
+      "id": "IS-15328",
+      "standard_number": "IS 15328 : 2003",
+      "title": "Unplasticized non-pressure PVC (PVC-U) Pipes for Underground Drainage",
+      "short_description": "Specification for PVC-U pipes for sewerage and drainage.",
+      "sector_id": "SEC-PLUMB",
+      "category_id": "CAT-PIPES",
+      "status": "CURRENT"
+    },
+    {
+      "id": "IS-17546",
+      "standard_number": "IS 17546 : 2021",
+      "title": "Chlorinated Polyvinyl Chloride (CPVC) Pipe Fittings",
+      "short_description": "Specification for CPVC fittings for hot and cold water plumbing.",
+      "sector_id": "SEC-PLUMB",
+      "category_id": "CAT-PIPES",
+      "status": "CURRENT"
+    },
+    {
+      "id": "IS-1239-1",
+      "standard_number": "IS 1239 (Part 1) : 2004",
+      "title": "Steel Tubes, Tubulars and Other Wrought Steel Fittings",
+      "short_description": "Steel tubes and fittings for water, gas, and air.",
+      "sector_id": "SEC-PLUMB",
+      "category_id": "CAT-PIPES",
+      "status": "CURRENT"
+    },
+    {
+      "id": "IS-17875",
+      "standard_number": "IS 17875 : 2022",
+      "title": "Stainless Steel Seamless Pipes and Tubes",
+      "short_description": "Stainless steel seamless pipes for general service.",
+      "sector_id": "SEC-PLUMB",
+      "category_id": "CAT-PIPES",
+      "status": "CURRENT"
+    },
+    {
+      "id": "IS-17650-1",
+      "standard_number": "IS 17650 (Part 1) : 2021",
+      "title": "Water Efficient Plumbing Products \u2014 Sanitaryware",
+      "short_description": "Efficiency specifications for sanitary plumbing products.",
+      "sector_id": "SEC-PLUMB",
+      "category_id": "CAT-PIPES",
+      "status": "CURRENT"
+    },
+    {
+      "id": "IS-5329",
+      "standard_number": "IS 5329 : 1983",
+      "title": "Code of Practice for Sanitary Pipe Work Above Ground for Buildings",
+      "short_description": "Guidelines for above ground sanitary pipe installations.",
+      "sector_id": "SEC-PLUMB",
+      "category_id": "CAT-PIPES",
+      "status": "CURRENT"
+    },
+    {
+      "id": "IS-694",
+      "standard_number": "IS 694 : 2010",
+      "title": "PVC Insulated Cables for Working Voltages up to 1,100 V",
+      "short_description": "Specification for low voltage PVC insulated cables.",
+      "sector_id": "SEC-ELEC",
+      "category_id": "CAT-CABLES",
+      "status": "CURRENT"
+    },
+    {
+      "id": "IS-1554-1",
+      "standard_number": "IS 1554 (Part 1) : 1988",
+      "title": "PVC Insulated (Heavy Duty) Electric Cables",
+      "short_description": "Heavy duty electric cables for up to 1100 V.",
+      "sector_id": "SEC-ELEC",
+      "category_id": "CAT-CABLES",
+      "status": "CURRENT"
+    },
+    {
+      "id": "IS-732",
+      "standard_number": "IS 732 : 2019",
+      "title": "Code of Practice for Electrical Wiring Installations",
+      "short_description": "Standard practices for wiring installations.",
+      "sector_id": "SEC-ELEC",
+      "category_id": "CAT-ELECEQ",
+      "status": "CURRENT"
+    },
+    {
+      "id": "IS-3043",
+      "standard_number": "IS 3043 : 2018",
+      "title": "Code of Practice for Earthing",
+      "short_description": "Guidelines for electrical earthing systems.",
+      "sector_id": "SEC-ELEC",
+      "category_id": "CAT-ELECEQ",
+      "status": "CURRENT"
+    },
+    {
+      "id": "IS-302-1",
+      "standard_number": "IS 302 (Part 1) : 2008",
+      "title": "Safety of Household and Similar Electrical Appliances",
+      "short_description": "General safety requirements for electrical appliances.",
+      "sector_id": "SEC-ELEC",
+      "category_id": "CAT-ELECEQ",
+      "status": "CURRENT"
+    },
+    {
+      "id": "IS-1293",
+      "standard_number": "IS 1293 : 2019",
+      "title": "Plugs and Socket-Outlets of Rated Voltage up to 250 Volts",
+      "short_description": "Specification for standard electrical plugs and sockets.",
+      "sector_id": "SEC-ELEC",
+      "category_id": "CAT-ELECEQ",
+      "status": "CURRENT"
+    },
+    {
+      "id": "IS-374",
+      "standard_number": "IS 374 : 1979",
+      "title": "Electric Ceiling Type Fans and Regulators",
+      "short_description": "Specification for ceiling fans.",
+      "sector_id": "SEC-ELEC",
+      "category_id": "CAT-ELECEQ",
+      "status": "CURRENT"
+    },
+    {
+      "id": "IS-2705",
+      "standard_number": "IS 2705 : 1992",
+      "title": "Current Transformers",
+      "short_description": "Specification for current transformers for electrical measurement.",
+      "sector_id": "SEC-ELEC",
+      "category_id": "CAT-ELECEQ",
+      "status": "CURRENT"
+    },
+    {
+      "id": "IS-2925",
+      "standard_number": "IS 2925 : 1984",
+      "title": "Industrial Safety Helmets \u2014 Specification",
+      "short_description": "Requirements for safety helmets used in industry and construction.",
+      "sector_id": "SEC-SAFE",
+      "category_id": "CAT-PPE",
+      "status": "CURRENT"
+    },
+    {
+      "id": "IS-15298-2",
+      "standard_number": "IS 15298 (Part 2) : 2016",
+      "title": "Personal Protective Equipment \u2014 Safety Footwear",
+      "short_description": "Specification for safety footwear.",
+      "sector_id": "SEC-SAFE",
+      "category_id": "CAT-PPE",
+      "status": "CURRENT"
+    },
+    {
+      "id": "IS-9473",
+      "standard_number": "IS 9473 : 2002",
+      "title": "Respiratory Protective Devices \u2014 Filtering Half Masks",
+      "short_description": "Specification for protective face masks against particles.",
+      "sector_id": "SEC-SAFE",
+      "category_id": "CAT-PPE",
+      "status": "CURRENT"
+    },
+    {
+      "id": "IS-3521",
+      "standard_number": "IS 3521 : 1999",
+      "title": "Industrial Safety Belts and Harnesses",
+      "short_description": "Specification for safety belts and fall arrest harnesses.",
+      "sector_id": "SEC-SAFE",
+      "category_id": "CAT-PPE",
+      "status": "CURRENT"
+    },
+    {
+      "id": "IS-1179",
+      "standard_number": "IS 1179 : 1967",
+      "title": "Equipment for Eye and Face Protection during Welding",
+      "short_description": "Safety requirements for welding protection gear.",
+      "sector_id": "SEC-SAFE",
+      "category_id": "CAT-PPE",
+      "status": "CURRENT"
+    },
+    {
+      "id": "IS-778",
+      "standard_number": "IS 778 : 1984",
+      "title": "Copper Alloy Gate, Globe and Check Valves",
+      "short_description": "Specification for small copper alloy valves.",
+      "sector_id": "SEC-MECH",
+      "category_id": "CAT-VALVES",
+      "status": "CURRENT"
+    },
+    {
+      "id": "IS-14846",
+      "standard_number": "IS 14846 : 2000",
+      "title": "Sluice Valves for Water Works Purposes",
+      "short_description": "Specification for sluice valves (gate valves) used in water works.",
+      "sector_id": "SEC-MECH",
+      "category_id": "CAT-VALVES",
+      "status": "CURRENT"
+    },
+    {
+      "id": "IS-13095",
+      "standard_number": "IS 13095 : 1991",
+      "title": "Butterfly Valves for General Purposes",
+      "short_description": "Specification for butterfly valves.",
+      "sector_id": "SEC-MECH",
+      "category_id": "CAT-VALVES",
+      "status": "CURRENT"
+    },
+    {
+      "id": "IS-9338",
+      "standard_number": "IS 9338 : 1984",
+      "title": "Cast Iron Screw-Down Stop Valves and Stop and Check Valves",
+      "short_description": "Specification for cast iron stop valves.",
+      "sector_id": "SEC-MECH",
+      "category_id": "CAT-VALVES",
+      "status": "CURRENT"
+    },
+    {
+      "id": "IS-5312-1",
+      "standard_number": "IS 5312 (Part 1) : 2004",
+      "title": "Swing Check Type Reflux (Non-Return) Valves",
+      "short_description": "Specification for swing check valves.",
+      "sector_id": "SEC-MECH",
+      "category_id": "CAT-VALVES",
+      "status": "CURRENT"
+    },
+    {
+      "id": "IS-13920",
+      "standard_number": "IS 13920 : 2016",
+      "title": "Ductile Design and Detailing of Reinforced Concrete Structures",
+      "short_description": "Code for ductile design of structures subject to seismic forces.",
+      "sector_id": "SEC-CIVIL",
+      "category_id": "CAT-CONCRETE",
+      "status": "CURRENT"
+    },
+    {
+      "id": "IS-875-1",
+      "standard_number": "IS 875 (Part 1) : 1987",
+      "title": "Code of Practice for Design Loads - Dead Loads",
+      "short_description": "Design loads for buildings and structures.",
+      "sector_id": "SEC-CIVIL",
+      "category_id": "CAT-CONCRETE",
+      "status": "CURRENT"
+    },
+    {
+      "id": "IS-1893-1",
+      "standard_number": "IS 1893 (Part 1) : 2016",
+      "title": "Criteria for Earthquake Resistant Design of Structures",
+      "short_description": "Earthquake resistant design criteria.",
+      "sector_id": "SEC-CIVIL",
+      "category_id": "CAT-CONCRETE",
+      "status": "CURRENT"
+    },
+    {
+      "id": "IS-432-1",
+      "standard_number": "IS 432 (Part 1) : 1982",
+      "title": "Mild Steel and Medium Tensile Steel Bars",
+      "short_description": "Specification for mild steel reinforcement bars.",
+      "sector_id": "SEC-CIVIL",
+      "category_id": "CAT-STEEL",
+      "status": "CURRENT"
+    },
+    {
+      "id": "IS-280",
+      "standard_number": "IS 280 : 2006",
+      "title": "Mild Steel Wire for General Engineering Purposes",
+      "short_description": "Specification for mild steel wire.",
+      "sector_id": "SEC-CIVIL",
+      "category_id": "CAT-STEEL",
+      "status": "CURRENT"
+    },
+    {
+      "id": "IS-2202-1",
+      "standard_number": "IS 2202 (Part 1) : 1991",
+      "title": "Wooden Flush Door Shutters",
+      "short_description": "Specification for wooden flush doors.",
+      "sector_id": "SEC-CIVIL",
+      "category_id": "CAT-WOOD",
+      "status": "CURRENT"
+    },
+    {
+      "id": "IS-303",
+      "standard_number": "IS 303 : 1989",
+      "title": "Plywood for General Purposes",
+      "short_description": "Specification for general purpose plywood.",
+      "sector_id": "SEC-CIVIL",
+      "category_id": "CAT-WOOD",
+      "status": "CURRENT"
+    },
+    {
+      "id": "IS-1038",
+      "standard_number": "IS 1038 : 1983",
+      "title": "Steel Doors, Windows and Ventilators",
+      "short_description": "Specification for steel doors and windows.",
+      "sector_id": "SEC-CIVIL",
+      "category_id": "CAT-WOOD",
+      "status": "CURRENT"
+    },
+    {
+      "id": "IS-1948",
+      "standard_number": "IS 1948 : 1961",
+      "title": "Aluminium Doors, Windows and Ventilators",
+      "short_description": "Specification for aluminium doors and windows.",
+      "sector_id": "SEC-CIVIL",
+      "category_id": "CAT-WOOD",
+      "status": "CURRENT"
+    },
+    {
+      "id": "IS-4021",
+      "standard_number": "IS 4021 : 1995",
+      "title": "Timber Door, Window and Ventilator Frames",
+      "short_description": "Specification for timber frames for doors and windows.",
+      "sector_id": "SEC-CIVIL",
+      "category_id": "CAT-WOOD",
+      "status": "CURRENT"
+    }
+  ],
+  "standard_versions": [
+    {
+      "id": "VER-IS-456-01",
+      "standard_id": "IS-456",
+      "edition": "2000",
+      "publication_date": "2000-01-01",
+      "status": "CURRENT"
+    },
+    {
+      "id": "VER-IS-800-01",
+      "standard_id": "IS-800",
+      "edition": "2007",
+      "publication_date": "2007-01-01",
+      "status": "CURRENT"
+    },
+    {
+      "id": "VER-IS-1077-01",
+      "standard_id": "IS-1077",
+      "edition": "1992",
+      "publication_date": "1992-01-01",
+      "status": "CURRENT"
+    },
+    {
+      "id": "VER-IS-383-01",
+      "standard_id": "IS-383",
+      "edition": "2016",
+      "publication_date": "2016-01-01",
+      "status": "CURRENT"
+    },
+    {
+      "id": "VER-IS-1786-01",
+      "standard_id": "IS-1786",
+      "edition": "2008",
+      "publication_date": "2008-01-01",
+      "status": "CURRENT"
+    },
+    {
+      "id": "VER-IS-1489-1-01",
+      "standard_id": "IS-1489-1",
+      "edition": "2015",
+      "publication_date": "2015-01-01",
+      "status": "CURRENT"
+    },
+    {
+      "id": "VER-IS-2062-01",
+      "standard_id": "IS-2062",
+      "edition": "2011",
+      "publication_date": "2011-01-01",
+      "status": "CURRENT"
+    },
+    {
+      "id": "VER-IS-4926-01",
+      "standard_id": "IS-4926",
+      "edition": "2003",
+      "publication_date": "2003-01-01",
+      "status": "CURRENT"
+    },
+    {
+      "id": "VER-IS-516-01",
+      "standard_id": "IS-516",
+      "edition": "1959",
+      "publication_date": "1959-01-01",
+      "status": "CURRENT"
+    },
+    {
+      "id": "VER-IS-10262-01",
+      "standard_id": "IS-10262",
+      "edition": "2019",
+      "publication_date": "2019-01-01",
+      "status": "CURRENT"
+    },
+    {
+      "id": "VER-IS-2212-01",
+      "standard_id": "IS-2212",
+      "edition": "1991",
+      "publication_date": "1991-01-01",
+      "status": "CURRENT"
+    },
+    {
+      "id": "VER-IS-3370-1-01",
+      "standard_id": "IS-3370-1",
+      "edition": "2021",
+      "publication_date": "2021-01-01",
+      "status": "CURRENT"
+    },
+    {
+      "id": "VER-IS-12269-01",
+      "standard_id": "IS-12269",
+      "edition": "2013",
+      "publication_date": "2013-01-01",
+      "status": "CURRENT"
+    },
+    {
+      "id": "VER-IS-8112-01",
+      "standard_id": "IS-8112",
+      "edition": "2013",
+      "publication_date": "2013-01-01",
+      "status": "CURRENT"
+    },
+    {
+      "id": "VER-IS-269-01",
+      "standard_id": "IS-269",
+      "edition": "2015",
+      "publication_date": "2015-01-01",
+      "status": "CURRENT"
+    },
+    {
+      "id": "VER-IS-15622-01",
+      "standard_id": "IS-15622",
+      "edition": "2017",
+      "publication_date": "2017-01-01",
+      "status": "CURRENT"
+    },
+    {
+      "id": "VER-IS-13712-01",
+      "standard_id": "IS-13712",
+      "edition": "2019",
+      "publication_date": "2019-01-01",
+      "status": "CURRENT"
+    },
+    {
+      "id": "VER-IS-504-01",
+      "standard_id": "IS-504",
+      "edition": "2020",
+      "publication_date": "2020-01-01",
+      "status": "CURRENT"
+    },
+    {
+      "id": "VER-IS-13630-01",
+      "standard_id": "IS-13630",
+      "edition": "2019",
+      "publication_date": "2019-01-01",
+      "status": "CURRENT"
+    },
+    {
+      "id": "VER-IS-4457-01",
+      "standard_id": "IS-4457",
+      "edition": "2007",
+      "publication_date": "2007-01-01",
+      "status": "CURRENT"
+    },
+    {
+      "id": "VER-IS-15489-01",
+      "standard_id": "IS-15489",
+      "edition": "2004",
+      "publication_date": "2004-01-01",
+      "status": "CURRENT"
+    },
+    {
+      "id": "VER-IS-2932-01",
+      "standard_id": "IS-2932",
+      "edition": "2003",
+      "publication_date": "2003-01-01",
+      "status": "CURRENT"
+    },
+    {
+      "id": "VER-IS-2339-01",
+      "standard_id": "IS-2339",
+      "edition": "2020",
+      "publication_date": "2020-01-01",
+      "status": "CURRENT"
+    },
+    {
+      "id": "VER-IS-133-01",
+      "standard_id": "IS-133",
+      "edition": "2013",
+      "publication_date": "2013-01-01",
+      "status": "CURRENT"
+    },
+    {
+      "id": "VER-IS-5410-01",
+      "standard_id": "IS-5410",
+      "edition": "1992",
+      "publication_date": "1992-01-01",
+      "status": "CURRENT"
+    },
+    {
+      "id": "VER-IS-4985-01",
+      "standard_id": "IS-4985",
+      "edition": "2021",
+      "publication_date": "2021-01-01",
+      "status": "CURRENT"
+    },
+    {
+      "id": "VER-IS-15328-01",
+      "standard_id": "IS-15328",
+      "edition": "2003",
+      "publication_date": "2003-01-01",
+      "status": "CURRENT"
+    },
+    {
+      "id": "VER-IS-17546-01",
+      "standard_id": "IS-17546",
+      "edition": "2021",
+      "publication_date": "2021-01-01",
+      "status": "CURRENT"
+    },
+    {
+      "id": "VER-IS-1239-1-01",
+      "standard_id": "IS-1239-1",
+      "edition": "2004",
+      "publication_date": "2004-01-01",
+      "status": "CURRENT"
+    },
+    {
+      "id": "VER-IS-17875-01",
+      "standard_id": "IS-17875",
+      "edition": "2022",
+      "publication_date": "2022-01-01",
+      "status": "CURRENT"
+    },
+    {
+      "id": "VER-IS-17650-1-01",
+      "standard_id": "IS-17650-1",
+      "edition": "2021",
+      "publication_date": "2021-01-01",
+      "status": "CURRENT"
+    },
+    {
+      "id": "VER-IS-5329-01",
+      "standard_id": "IS-5329",
+      "edition": "1983",
+      "publication_date": "1983-01-01",
+      "status": "CURRENT"
+    },
+    {
+      "id": "VER-IS-694-01",
+      "standard_id": "IS-694",
+      "edition": "2010",
+      "publication_date": "2010-01-01",
+      "status": "CURRENT"
+    },
+    {
+      "id": "VER-IS-1554-1-01",
+      "standard_id": "IS-1554-1",
+      "edition": "1988",
+      "publication_date": "1988-01-01",
+      "status": "CURRENT"
+    },
+    {
+      "id": "VER-IS-732-01",
+      "standard_id": "IS-732",
+      "edition": "2019",
+      "publication_date": "2019-01-01",
+      "status": "CURRENT"
+    },
+    {
+      "id": "VER-IS-3043-01",
+      "standard_id": "IS-3043",
+      "edition": "2018",
+      "publication_date": "2018-01-01",
+      "status": "CURRENT"
+    },
+    {
+      "id": "VER-IS-302-1-01",
+      "standard_id": "IS-302-1",
+      "edition": "2008",
+      "publication_date": "2008-01-01",
+      "status": "CURRENT"
+    },
+    {
+      "id": "VER-IS-1293-01",
+      "standard_id": "IS-1293",
+      "edition": "2019",
+      "publication_date": "2019-01-01",
+      "status": "CURRENT"
+    },
+    {
+      "id": "VER-IS-374-01",
+      "standard_id": "IS-374",
+      "edition": "1979",
+      "publication_date": "1979-01-01",
+      "status": "CURRENT"
+    },
+    {
+      "id": "VER-IS-2705-01",
+      "standard_id": "IS-2705",
+      "edition": "1992",
+      "publication_date": "1992-01-01",
+      "status": "CURRENT"
+    },
+    {
+      "id": "VER-IS-2925-01",
+      "standard_id": "IS-2925",
+      "edition": "1984",
+      "publication_date": "1984-01-01",
+      "status": "CURRENT"
+    },
+    {
+      "id": "VER-IS-15298-2-01",
+      "standard_id": "IS-15298-2",
+      "edition": "2016",
+      "publication_date": "2016-01-01",
+      "status": "CURRENT"
+    },
+    {
+      "id": "VER-IS-9473-01",
+      "standard_id": "IS-9473",
+      "edition": "2002",
+      "publication_date": "2002-01-01",
+      "status": "CURRENT"
+    },
+    {
+      "id": "VER-IS-3521-01",
+      "standard_id": "IS-3521",
+      "edition": "1999",
+      "publication_date": "1999-01-01",
+      "status": "CURRENT"
+    },
+    {
+      "id": "VER-IS-1179-01",
+      "standard_id": "IS-1179",
+      "edition": "1967",
+      "publication_date": "1967-01-01",
+      "status": "CURRENT"
+    },
+    {
+      "id": "VER-IS-778-01",
+      "standard_id": "IS-778",
+      "edition": "1984",
+      "publication_date": "1984-01-01",
+      "status": "CURRENT"
+    },
+    {
+      "id": "VER-IS-14846-01",
+      "standard_id": "IS-14846",
+      "edition": "2000",
+      "publication_date": "2000-01-01",
+      "status": "CURRENT"
+    },
+    {
+      "id": "VER-IS-13095-01",
+      "standard_id": "IS-13095",
+      "edition": "1991",
+      "publication_date": "1991-01-01",
+      "status": "CURRENT"
+    },
+    {
+      "id": "VER-IS-9338-01",
+      "standard_id": "IS-9338",
+      "edition": "1984",
+      "publication_date": "1984-01-01",
+      "status": "CURRENT"
+    },
+    {
+      "id": "VER-IS-5312-1-01",
+      "standard_id": "IS-5312-1",
+      "edition": "2004",
+      "publication_date": "2004-01-01",
+      "status": "CURRENT"
+    },
+    {
+      "id": "VER-IS-13920-01",
+      "standard_id": "IS-13920",
+      "edition": "2016",
+      "publication_date": "2016-01-01",
+      "status": "CURRENT"
+    },
+    {
+      "id": "VER-IS-875-1-01",
+      "standard_id": "IS-875-1",
+      "edition": "1987",
+      "publication_date": "1987-01-01",
+      "status": "CURRENT"
+    },
+    {
+      "id": "VER-IS-1893-1-01",
+      "standard_id": "IS-1893-1",
+      "edition": "2016",
+      "publication_date": "2016-01-01",
+      "status": "CURRENT"
+    },
+    {
+      "id": "VER-IS-432-1-01",
+      "standard_id": "IS-432-1",
+      "edition": "1982",
+      "publication_date": "1982-01-01",
+      "status": "CURRENT"
+    },
+    {
+      "id": "VER-IS-280-01",
+      "standard_id": "IS-280",
+      "edition": "2006",
+      "publication_date": "2006-01-01",
+      "status": "CURRENT"
+    },
+    {
+      "id": "VER-IS-2202-1-01",
+      "standard_id": "IS-2202-1",
+      "edition": "1991",
+      "publication_date": "1991-01-01",
+      "status": "CURRENT"
+    },
+    {
+      "id": "VER-IS-303-01",
+      "standard_id": "IS-303",
+      "edition": "1989",
+      "publication_date": "1989-01-01",
+      "status": "CURRENT"
+    },
+    {
+      "id": "VER-IS-1038-01",
+      "standard_id": "IS-1038",
+      "edition": "1983",
+      "publication_date": "1983-01-01",
+      "status": "CURRENT"
+    },
+    {
+      "id": "VER-IS-1948-01",
+      "standard_id": "IS-1948",
+      "edition": "1961",
+      "publication_date": "1961-01-01",
+      "status": "CURRENT"
+    },
+    {
+      "id": "VER-IS-4021-01",
+      "standard_id": "IS-4021",
+      "edition": "1995",
+      "publication_date": "1995-01-01",
+      "status": "CURRENT"
+    }
+  ],
+  "standard_scopes": [
+    {
+      "id": "SCO-IS-456-01",
+      "standard_id": "IS-456",
+      "scope_text": "General requirements for the design and construction of plain and reinforced concrete. This standard covers the fundamental specifications and practices."
+    },
+    {
+      "id": "SCO-IS-800-01",
+      "standard_id": "IS-800",
+      "scope_text": "General practice for structural steel design. This standard covers the fundamental specifications and practices."
+    },
+    {
+      "id": "SCO-IS-1077-01",
+      "standard_id": "IS-1077",
+      "scope_text": "Specification for common burnt clay building bricks. This standard covers the fundamental specifications and practices."
+    },
+    {
+      "id": "SCO-IS-383-01",
+      "standard_id": "IS-383",
+      "scope_text": "Specification for naturally sourced aggregates for concrete. This standard covers the fundamental specifications and practices."
+    },
+    {
+      "id": "SCO-IS-1786-01",
+      "standard_id": "IS-1786",
+      "scope_text": "Requirements for high strength deformed steel bars. This standard covers the fundamental specifications and practices."
+    },
+    {
+      "id": "SCO-IS-1489-1-01",
+      "standard_id": "IS-1489-1",
+      "scope_text": "Specification for fly ash based Portland pozzolana cement. This standard covers the fundamental specifications and practices."
+    },
+    {
+      "id": "SCO-IS-2062-01",
+      "standard_id": "IS-2062",
+      "scope_text": "Specification for hot rolled structural steel. This standard covers the fundamental specifications and practices."
+    },
+    {
+      "id": "SCO-IS-4926-01",
+      "standard_id": "IS-4926",
+      "scope_text": "Requirements for ready-mixed concrete. This standard covers the fundamental specifications and practices."
+    },
+    {
+      "id": "SCO-IS-516-01",
+      "standard_id": "IS-516",
+      "scope_text": "Procedures for testing the strength of concrete. This standard covers the fundamental specifications and practices."
+    },
+    {
+      "id": "SCO-IS-10262-01",
+      "standard_id": "IS-10262",
+      "scope_text": "Guidelines for concrete mix proportioning. This standard covers the fundamental specifications and practices."
+    },
+    {
+      "id": "SCO-IS-2212-01",
+      "standard_id": "IS-2212",
+      "scope_text": "General code of practice for brickwork construction. This standard covers the fundamental specifications and practices."
+    },
+    {
+      "id": "SCO-IS-3370-1-01",
+      "standard_id": "IS-3370-1",
+      "scope_text": "General requirements for design and construction of liquid storage structures. This standard covers the fundamental specifications and practices."
+    },
+    {
+      "id": "SCO-IS-12269-01",
+      "standard_id": "IS-12269",
+      "scope_text": "Specification for 53 grade ordinary Portland cement. This standard covers the fundamental specifications and practices."
+    },
+    {
+      "id": "SCO-IS-8112-01",
+      "standard_id": "IS-8112",
+      "scope_text": "Specification for 43 grade ordinary Portland cement. This standard covers the fundamental specifications and practices."
+    },
+    {
+      "id": "SCO-IS-269-01",
+      "standard_id": "IS-269",
+      "scope_text": "Specification for 33 grade ordinary Portland cement. This standard covers the fundamental specifications and practices."
+    },
+    {
+      "id": "SCO-IS-15622-01",
+      "standard_id": "IS-15622",
+      "scope_text": "Specification for pressed ceramic tiles (glazed and unglazed) for walls and floors. This standard covers the fundamental specifications, dimensions, and testing requirements applicable for procurement and manufacturing."
+    },
+    {
+      "id": "SCO-IS-13712-01",
+      "standard_id": "IS-13712",
+      "scope_text": "Definitions and classification for ceramic tiles. This standard covers the fundamental specifications, dimensions, and testing requirements applicable for procurement and manufacturing."
+    },
+    {
+      "id": "SCO-IS-504-01",
+      "standard_id": "IS-504",
+      "scope_text": "Specification specifically covering ceramic glazed tiles. This standard covers the fundamental specifications, dimensions, and testing requirements applicable for procurement and manufacturing."
+    },
+    {
+      "id": "SCO-IS-13630-01",
+      "standard_id": "IS-13630",
+      "scope_text": "Test methods for determining dimensions and surface quality of ceramic tiles. This standard covers the fundamental specifications, dimensions, and testing requirements applicable for procurement and manufacturing."
+    },
+    {
+      "id": "SCO-IS-4457-01",
+      "standard_id": "IS-4457",
+      "scope_text": "Specification for acid-resisting ceramic unglazed vitreous tiles. This standard covers the fundamental specifications, dimensions, and testing requirements applicable for procurement and manufacturing."
+    },
+    {
+      "id": "SCO-IS-15489-01",
+      "standard_id": "IS-15489",
+      "scope_text": "Specification for plastic emulsion paint for interior and exterior use. This standard covers the fundamental specifications, dimensions, and testing requirements applicable for procurement and manufacturing."
+    },
+    {
+      "id": "SCO-IS-2932-01",
+      "standard_id": "IS-2932",
+      "scope_text": "Specification for synthetic enamel paint for exterior use. This standard covers the fundamental specifications, dimensions, and testing requirements applicable for procurement and manufacturing."
+    },
+    {
+      "id": "SCO-IS-2339-01",
+      "standard_id": "IS-2339",
+      "scope_text": "Specification for dual-container aluminium paint. This standard covers the fundamental specifications, dimensions, and testing requirements applicable for procurement and manufacturing."
+    },
+    {
+      "id": "SCO-IS-133-01",
+      "standard_id": "IS-133",
+      "scope_text": "Specification for interior enamel paint. This standard covers the fundamental specifications, dimensions, and testing requirements applicable for procurement and manufacturing."
+    },
+    {
+      "id": "SCO-IS-5410-01",
+      "standard_id": "IS-5410",
+      "scope_text": "Specification for cement paint for exterior wall finishes. This standard covers the fundamental specifications, dimensions, and testing requirements applicable for procurement and manufacturing."
+    },
+    {
+      "id": "SCO-IS-4985-01",
+      "standard_id": "IS-4985",
+      "scope_text": "Specification for uPVC pipes used in potable water systems. This standard covers the fundamental specifications, dimensions, and testing requirements applicable for procurement and manufacturing."
+    },
+    {
+      "id": "SCO-IS-15328-01",
+      "standard_id": "IS-15328",
+      "scope_text": "Specification for PVC-U pipes for sewerage and drainage. This standard covers the fundamental specifications, dimensions, and testing requirements applicable for procurement and manufacturing."
+    },
+    {
+      "id": "SCO-IS-17546-01",
+      "standard_id": "IS-17546",
+      "scope_text": "Specification for CPVC fittings for hot and cold water plumbing. This standard covers the fundamental specifications, dimensions, and testing requirements applicable for procurement and manufacturing."
+    },
+    {
+      "id": "SCO-IS-1239-1-01",
+      "standard_id": "IS-1239-1",
+      "scope_text": "Steel tubes and fittings for water, gas, and air. This standard covers the fundamental specifications, dimensions, and testing requirements applicable for procurement and manufacturing."
+    },
+    {
+      "id": "SCO-IS-17875-01",
+      "standard_id": "IS-17875",
+      "scope_text": "Stainless steel seamless pipes for general service. This standard covers the fundamental specifications, dimensions, and testing requirements applicable for procurement and manufacturing."
+    },
+    {
+      "id": "SCO-IS-17650-1-01",
+      "standard_id": "IS-17650-1",
+      "scope_text": "Efficiency specifications for sanitary plumbing products. This standard covers the fundamental specifications, dimensions, and testing requirements applicable for procurement and manufacturing."
+    },
+    {
+      "id": "SCO-IS-5329-01",
+      "standard_id": "IS-5329",
+      "scope_text": "Guidelines for above ground sanitary pipe installations. This standard covers the fundamental specifications, dimensions, and testing requirements applicable for procurement and manufacturing."
+    },
+    {
+      "id": "SCO-IS-694-01",
+      "standard_id": "IS-694",
+      "scope_text": "Specification for low voltage PVC insulated cables. This standard covers the fundamental specifications, dimensions, and testing requirements applicable for procurement and manufacturing."
+    },
+    {
+      "id": "SCO-IS-1554-1-01",
+      "standard_id": "IS-1554-1",
+      "scope_text": "Heavy duty electric cables for up to 1100 V. This standard covers the fundamental specifications, dimensions, and testing requirements applicable for procurement and manufacturing."
+    },
+    {
+      "id": "SCO-IS-732-01",
+      "standard_id": "IS-732",
+      "scope_text": "Standard practices for wiring installations. This standard covers the fundamental specifications, dimensions, and testing requirements applicable for procurement and manufacturing."
+    },
+    {
+      "id": "SCO-IS-3043-01",
+      "standard_id": "IS-3043",
+      "scope_text": "Guidelines for electrical earthing systems. This standard covers the fundamental specifications, dimensions, and testing requirements applicable for procurement and manufacturing."
+    },
+    {
+      "id": "SCO-IS-302-1-01",
+      "standard_id": "IS-302-1",
+      "scope_text": "General safety requirements for electrical appliances. This standard covers the fundamental specifications, dimensions, and testing requirements applicable for procurement and manufacturing."
+    },
+    {
+      "id": "SCO-IS-1293-01",
+      "standard_id": "IS-1293",
+      "scope_text": "Specification for standard electrical plugs and sockets. This standard covers the fundamental specifications, dimensions, and testing requirements applicable for procurement and manufacturing."
+    },
+    {
+      "id": "SCO-IS-374-01",
+      "standard_id": "IS-374",
+      "scope_text": "Specification for ceiling fans. This standard covers the fundamental specifications, dimensions, and testing requirements applicable for procurement and manufacturing."
+    },
+    {
+      "id": "SCO-IS-2705-01",
+      "standard_id": "IS-2705",
+      "scope_text": "Specification for current transformers for electrical measurement. This standard covers the fundamental specifications, dimensions, and testing requirements applicable for procurement and manufacturing."
+    },
+    {
+      "id": "SCO-IS-2925-01",
+      "standard_id": "IS-2925",
+      "scope_text": "Requirements for safety helmets used in industry and construction. This standard covers the fundamental specifications, dimensions, and testing requirements applicable for procurement and manufacturing."
+    },
+    {
+      "id": "SCO-IS-15298-2-01",
+      "standard_id": "IS-15298-2",
+      "scope_text": "Specification for safety footwear. This standard covers the fundamental specifications, dimensions, and testing requirements applicable for procurement and manufacturing."
+    },
+    {
+      "id": "SCO-IS-9473-01",
+      "standard_id": "IS-9473",
+      "scope_text": "Specification for protective face masks against particles. This standard covers the fundamental specifications, dimensions, and testing requirements applicable for procurement and manufacturing."
+    },
+    {
+      "id": "SCO-IS-3521-01",
+      "standard_id": "IS-3521",
+      "scope_text": "Specification for safety belts and fall arrest harnesses. This standard covers the fundamental specifications, dimensions, and testing requirements applicable for procurement and manufacturing."
+    },
+    {
+      "id": "SCO-IS-1179-01",
+      "standard_id": "IS-1179",
+      "scope_text": "Safety requirements for welding protection gear. This standard covers the fundamental specifications, dimensions, and testing requirements applicable for procurement and manufacturing."
+    },
+    {
+      "id": "SCO-IS-778-01",
+      "standard_id": "IS-778",
+      "scope_text": "Specification for small copper alloy valves. This standard covers the fundamental specifications, dimensions, and testing requirements applicable for procurement and manufacturing."
+    },
+    {
+      "id": "SCO-IS-14846-01",
+      "standard_id": "IS-14846",
+      "scope_text": "Specification for sluice valves (gate valves) used in water works. This standard covers the fundamental specifications, dimensions, and testing requirements applicable for procurement and manufacturing."
+    },
+    {
+      "id": "SCO-IS-13095-01",
+      "standard_id": "IS-13095",
+      "scope_text": "Specification for butterfly valves. This standard covers the fundamental specifications, dimensions, and testing requirements applicable for procurement and manufacturing."
+    },
+    {
+      "id": "SCO-IS-9338-01",
+      "standard_id": "IS-9338",
+      "scope_text": "Specification for cast iron stop valves. This standard covers the fundamental specifications, dimensions, and testing requirements applicable for procurement and manufacturing."
+    },
+    {
+      "id": "SCO-IS-5312-1-01",
+      "standard_id": "IS-5312-1",
+      "scope_text": "Specification for swing check valves. This standard covers the fundamental specifications, dimensions, and testing requirements applicable for procurement and manufacturing."
+    },
+    {
+      "id": "SCO-IS-13920-01",
+      "standard_id": "IS-13920",
+      "scope_text": "Code for ductile design of structures subject to seismic forces. This standard covers the fundamental specifications, dimensions, and testing requirements applicable for procurement and manufacturing."
+    },
+    {
+      "id": "SCO-IS-875-1-01",
+      "standard_id": "IS-875-1",
+      "scope_text": "Design loads for buildings and structures. This standard covers the fundamental specifications, dimensions, and testing requirements applicable for procurement and manufacturing."
+    },
+    {
+      "id": "SCO-IS-1893-1-01",
+      "standard_id": "IS-1893-1",
+      "scope_text": "Earthquake resistant design criteria. This standard covers the fundamental specifications, dimensions, and testing requirements applicable for procurement and manufacturing."
+    },
+    {
+      "id": "SCO-IS-432-1-01",
+      "standard_id": "IS-432-1",
+      "scope_text": "Specification for mild steel reinforcement bars. This standard covers the fundamental specifications, dimensions, and testing requirements applicable for procurement and manufacturing."
+    },
+    {
+      "id": "SCO-IS-280-01",
+      "standard_id": "IS-280",
+      "scope_text": "Specification for mild steel wire. This standard covers the fundamental specifications, dimensions, and testing requirements applicable for procurement and manufacturing."
+    },
+    {
+      "id": "SCO-IS-2202-1-01",
+      "standard_id": "IS-2202-1",
+      "scope_text": "Specification for wooden flush doors. This standard covers the fundamental specifications, dimensions, and testing requirements applicable for procurement and manufacturing."
+    },
+    {
+      "id": "SCO-IS-303-01",
+      "standard_id": "IS-303",
+      "scope_text": "Specification for general purpose plywood. This standard covers the fundamental specifications, dimensions, and testing requirements applicable for procurement and manufacturing."
+    },
+    {
+      "id": "SCO-IS-1038-01",
+      "standard_id": "IS-1038",
+      "scope_text": "Specification for steel doors and windows. This standard covers the fundamental specifications, dimensions, and testing requirements applicable for procurement and manufacturing."
+    },
+    {
+      "id": "SCO-IS-1948-01",
+      "standard_id": "IS-1948",
+      "scope_text": "Specification for aluminium doors and windows. This standard covers the fundamental specifications, dimensions, and testing requirements applicable for procurement and manufacturing."
+    },
+    {
+      "id": "SCO-IS-4021-01",
+      "standard_id": "IS-4021",
+      "scope_text": "Specification for timber frames for doors and windows. This standard covers the fundamental specifications, dimensions, and testing requirements applicable for procurement and manufacturing."
+    }
+  ],
+  "keywords": [
+    {
+      "id": "KW-CONCRETE",
+      "word": "concrete"
+    },
+    {
+      "id": "KW-STEEL",
+      "word": "steel"
+    },
+    {
+      "id": "KW-BRICK",
+      "word": "brick"
+    },
+    {
+      "id": "KW-CEMENT",
+      "word": "cement"
+    },
+    {
+      "id": "KW-AGGREGATE",
+      "word": "aggregate"
+    },
+    {
+      "id": "KW-CONSTRUCTION",
+      "word": "construction"
+    },
+    {
+      "id": "KW-TILE",
+      "word": "tiles"
+    },
+    {
+      "id": "KW-FLOORING",
+      "word": "flooring"
+    },
+    {
+      "id": "KW-PAINT",
+      "word": "paint"
+    },
+    {
+      "id": "KW-COATING",
+      "word": "coating"
+    },
+    {
+      "id": "KW-PIPE",
+      "word": "pipes"
+    },
+    {
+      "id": "KW-PVC",
+      "word": "pvc"
+    },
+    {
+      "id": "KW-PLUMBING",
+      "word": "plumbing"
+    },
+    {
+      "id": "KW-CABLE",
+      "word": "cable"
+    },
+    {
+      "id": "KW-ELECTRICAL",
+      "word": "electrical"
+    },
+    {
+      "id": "KW-SAFETY",
+      "word": "safety"
+    },
+    {
+      "id": "KW-PPE",
+      "word": "ppe"
+    },
+    {
+      "id": "KW-VALVE",
+      "word": "valve"
+    },
+    {
+      "id": "KW-WOOD",
+      "word": "wood"
+    },
+    {
+      "id": "KW-DOOR",
+      "word": "door"
+    },
+    {
+      "id": "KW-CERAMIC",
+      "word": "ceramic"
+    }
+  ],
+  "standard_keywords": [
+    {
+      "standard_id": "IS-456",
+      "keyword_id": "KW-CONCRETE"
+    },
+    {
+      "standard_id": "IS-456",
+      "keyword_id": "KW-CONSTRUCTION"
+    },
+    {
+      "standard_id": "IS-800",
+      "keyword_id": "KW-STEEL"
+    },
+    {
+      "standard_id": "IS-800",
+      "keyword_id": "KW-CONSTRUCTION"
+    },
+    {
+      "standard_id": "IS-1077",
+      "keyword_id": "KW-BRICK"
+    },
+    {
+      "standard_id": "IS-1077",
+      "keyword_id": "KW-CONSTRUCTION"
+    },
+    {
+      "standard_id": "IS-383",
+      "keyword_id": "KW-AGGREGATE"
+    },
+    {
+      "standard_id": "IS-383",
+      "keyword_id": "KW-CONCRETE"
+    },
+    {
+      "standard_id": "IS-1786",
+      "keyword_id": "KW-STEEL"
+    },
+    {
+      "standard_id": "IS-1786",
+      "keyword_id": "KW-CONCRETE"
+    },
+    {
+      "standard_id": "IS-1786",
+      "keyword_id": "KW-CONSTRUCTION"
+    },
+    {
+      "standard_id": "IS-1489-1",
+      "keyword_id": "KW-CEMENT"
+    },
+    {
+      "standard_id": "IS-1489-1",
+      "keyword_id": "KW-CONCRETE"
+    },
+    {
+      "standard_id": "IS-2062",
+      "keyword_id": "KW-STEEL"
+    },
+    {
+      "standard_id": "IS-4926",
+      "keyword_id": "KW-CONCRETE"
+    },
+    {
+      "standard_id": "IS-516",
+      "keyword_id": "KW-CONCRETE"
+    },
+    {
+      "standard_id": "IS-10262",
+      "keyword_id": "KW-CONCRETE"
+    },
+    {
+      "standard_id": "IS-2212",
+      "keyword_id": "KW-BRICK"
+    },
+    {
+      "standard_id": "IS-2212",
+      "keyword_id": "KW-CONSTRUCTION"
+    },
+    {
+      "standard_id": "IS-3370-1",
+      "keyword_id": "KW-CONCRETE"
+    },
+    {
+      "standard_id": "IS-12269",
+      "keyword_id": "KW-CEMENT"
+    },
+    {
+      "standard_id": "IS-8112",
+      "keyword_id": "KW-CEMENT"
+    },
+    {
+      "standard_id": "IS-269",
+      "keyword_id": "KW-CEMENT"
+    },
+    {
+      "standard_id": "IS-15622",
+      "keyword_id": "KW-TILE"
+    },
+    {
+      "standard_id": "IS-15622",
+      "keyword_id": "KW-CERAMIC"
+    },
+    {
+      "standard_id": "IS-15622",
+      "keyword_id": "KW-FLOORING"
+    },
+    {
+      "standard_id": "IS-15622",
+      "keyword_id": "KW-CONSTRUCTION"
+    },
+    {
+      "standard_id": "IS-13712",
+      "keyword_id": "KW-TILE"
+    },
+    {
+      "standard_id": "IS-13712",
+      "keyword_id": "KW-CERAMIC"
+    },
+    {
+      "standard_id": "IS-13712",
+      "keyword_id": "KW-FLOORING"
+    },
+    {
+      "standard_id": "IS-504",
+      "keyword_id": "KW-TILE"
+    },
+    {
+      "standard_id": "IS-504",
+      "keyword_id": "KW-CERAMIC"
+    },
+    {
+      "standard_id": "IS-13630",
+      "keyword_id": "KW-TILE"
+    },
+    {
+      "standard_id": "IS-13630",
+      "keyword_id": "KW-CERAMIC"
+    },
+    {
+      "standard_id": "IS-4457",
+      "keyword_id": "KW-TILE"
+    },
+    {
+      "standard_id": "IS-4457",
+      "keyword_id": "KW-CERAMIC"
+    },
+    {
+      "standard_id": "IS-4457",
+      "keyword_id": "KW-FLOORING"
+    },
+    {
+      "standard_id": "IS-15489",
+      "keyword_id": "KW-PAINT"
+    },
+    {
+      "standard_id": "IS-15489",
+      "keyword_id": "KW-COATING"
+    },
+    {
+      "standard_id": "IS-15489",
+      "keyword_id": "KW-CONSTRUCTION"
+    },
+    {
+      "standard_id": "IS-2932",
+      "keyword_id": "KW-PAINT"
+    },
+    {
+      "standard_id": "IS-2932",
+      "keyword_id": "KW-COATING"
+    },
+    {
+      "standard_id": "IS-2339",
+      "keyword_id": "KW-PAINT"
+    },
+    {
+      "standard_id": "IS-2339",
+      "keyword_id": "KW-COATING"
+    },
+    {
+      "standard_id": "IS-133",
+      "keyword_id": "KW-PAINT"
+    },
+    {
+      "standard_id": "IS-133",
+      "keyword_id": "KW-COATING"
+    },
+    {
+      "standard_id": "IS-5410",
+      "keyword_id": "KW-PAINT"
+    },
+    {
+      "standard_id": "IS-5410",
+      "keyword_id": "KW-COATING"
+    },
+    {
+      "standard_id": "IS-5410",
+      "keyword_id": "KW-CEMENT"
+    },
+    {
+      "standard_id": "IS-4985",
+      "keyword_id": "KW-PIPE"
+    },
+    {
+      "standard_id": "IS-4985",
+      "keyword_id": "KW-PVC"
+    },
+    {
+      "standard_id": "IS-4985",
+      "keyword_id": "KW-PLUMBING"
+    },
+    {
+      "standard_id": "IS-15328",
+      "keyword_id": "KW-PIPE"
+    },
+    {
+      "standard_id": "IS-15328",
+      "keyword_id": "KW-PVC"
+    },
+    {
+      "standard_id": "IS-15328",
+      "keyword_id": "KW-PLUMBING"
+    },
+    {
+      "standard_id": "IS-17546",
+      "keyword_id": "KW-PIPE"
+    },
+    {
+      "standard_id": "IS-17546",
+      "keyword_id": "KW-PVC"
+    },
+    {
+      "standard_id": "IS-17546",
+      "keyword_id": "KW-PLUMBING"
+    },
+    {
+      "standard_id": "IS-1239-1",
+      "keyword_id": "KW-PIPE"
+    },
+    {
+      "standard_id": "IS-1239-1",
+      "keyword_id": "KW-STEEL"
+    },
+    {
+      "standard_id": "IS-1239-1",
+      "keyword_id": "KW-PLUMBING"
+    },
+    {
+      "standard_id": "IS-17875",
+      "keyword_id": "KW-PIPE"
+    },
+    {
+      "standard_id": "IS-17875",
+      "keyword_id": "KW-STEEL"
+    },
+    {
+      "standard_id": "IS-17875",
+      "keyword_id": "KW-PLUMBING"
+    },
+    {
+      "standard_id": "IS-17650-1",
+      "keyword_id": "KW-PLUMBING"
+    },
+    {
+      "standard_id": "IS-5329",
+      "keyword_id": "KW-PIPE"
+    },
+    {
+      "standard_id": "IS-5329",
+      "keyword_id": "KW-PLUMBING"
+    },
+    {
+      "standard_id": "IS-5329",
+      "keyword_id": "KW-CONSTRUCTION"
+    },
+    {
+      "standard_id": "IS-694",
+      "keyword_id": "KW-CABLE"
+    },
+    {
+      "standard_id": "IS-694",
+      "keyword_id": "KW-ELECTRICAL"
+    },
+    {
+      "standard_id": "IS-694",
+      "keyword_id": "KW-PVC"
+    },
+    {
+      "standard_id": "IS-1554-1",
+      "keyword_id": "KW-CABLE"
+    },
+    {
+      "standard_id": "IS-1554-1",
+      "keyword_id": "KW-ELECTRICAL"
+    },
+    {
+      "standard_id": "IS-1554-1",
+      "keyword_id": "KW-PVC"
+    },
+    {
+      "standard_id": "IS-732",
+      "keyword_id": "KW-ELECTRICAL"
+    },
+    {
+      "standard_id": "IS-732",
+      "keyword_id": "KW-CONSTRUCTION"
+    },
+    {
+      "standard_id": "IS-3043",
+      "keyword_id": "KW-ELECTRICAL"
+    },
+    {
+      "standard_id": "IS-302-1",
+      "keyword_id": "KW-ELECTRICAL"
+    },
+    {
+      "standard_id": "IS-302-1",
+      "keyword_id": "KW-SAFETY"
+    },
+    {
+      "standard_id": "IS-1293",
+      "keyword_id": "KW-ELECTRICAL"
+    },
+    {
+      "standard_id": "IS-374",
+      "keyword_id": "KW-ELECTRICAL"
+    },
+    {
+      "standard_id": "IS-2705",
+      "keyword_id": "KW-ELECTRICAL"
+    },
+    {
+      "standard_id": "IS-2925",
+      "keyword_id": "KW-SAFETY"
+    },
+    {
+      "standard_id": "IS-2925",
+      "keyword_id": "KW-PPE"
+    },
+    {
+      "standard_id": "IS-15298-2",
+      "keyword_id": "KW-SAFETY"
+    },
+    {
+      "standard_id": "IS-15298-2",
+      "keyword_id": "KW-PPE"
+    },
+    {
+      "standard_id": "IS-9473",
+      "keyword_id": "KW-SAFETY"
+    },
+    {
+      "standard_id": "IS-9473",
+      "keyword_id": "KW-PPE"
+    },
+    {
+      "standard_id": "IS-3521",
+      "keyword_id": "KW-SAFETY"
+    },
+    {
+      "standard_id": "IS-3521",
+      "keyword_id": "KW-PPE"
+    },
+    {
+      "standard_id": "IS-1179",
+      "keyword_id": "KW-SAFETY"
+    },
+    {
+      "standard_id": "IS-1179",
+      "keyword_id": "KW-PPE"
+    },
+    {
+      "standard_id": "IS-778",
+      "keyword_id": "KW-VALVE"
+    },
+    {
+      "standard_id": "IS-778",
+      "keyword_id": "KW-PLUMBING"
+    },
+    {
+      "standard_id": "IS-14846",
+      "keyword_id": "KW-VALVE"
+    },
+    {
+      "standard_id": "IS-14846",
+      "keyword_id": "KW-PLUMBING"
+    },
+    {
+      "standard_id": "IS-13095",
+      "keyword_id": "KW-VALVE"
+    },
+    {
+      "standard_id": "IS-13095",
+      "keyword_id": "KW-PLUMBING"
+    },
+    {
+      "standard_id": "IS-9338",
+      "keyword_id": "KW-VALVE"
+    },
+    {
+      "standard_id": "IS-9338",
+      "keyword_id": "KW-PLUMBING"
+    },
+    {
+      "standard_id": "IS-5312-1",
+      "keyword_id": "KW-VALVE"
+    },
+    {
+      "standard_id": "IS-5312-1",
+      "keyword_id": "KW-PLUMBING"
+    },
+    {
+      "standard_id": "IS-13920",
+      "keyword_id": "KW-CONCRETE"
+    },
+    {
+      "standard_id": "IS-13920",
+      "keyword_id": "KW-CONSTRUCTION"
+    },
+    {
+      "standard_id": "IS-875-1",
+      "keyword_id": "KW-CONSTRUCTION"
+    },
+    {
+      "standard_id": "IS-1893-1",
+      "keyword_id": "KW-CONSTRUCTION"
+    },
+    {
+      "standard_id": "IS-432-1",
+      "keyword_id": "KW-STEEL"
+    },
+    {
+      "standard_id": "IS-432-1",
+      "keyword_id": "KW-CONSTRUCTION"
+    },
+    {
+      "standard_id": "IS-280",
+      "keyword_id": "KW-STEEL"
+    },
+    {
+      "standard_id": "IS-2202-1",
+      "keyword_id": "KW-WOOD"
+    },
+    {
+      "standard_id": "IS-2202-1",
+      "keyword_id": "KW-DOOR"
+    },
+    {
+      "standard_id": "IS-2202-1",
+      "keyword_id": "KW-CONSTRUCTION"
+    },
+    {
+      "standard_id": "IS-303",
+      "keyword_id": "KW-WOOD"
+    },
+    {
+      "standard_id": "IS-303",
+      "keyword_id": "KW-CONSTRUCTION"
+    },
+    {
+      "standard_id": "IS-1038",
+      "keyword_id": "KW-DOOR"
+    },
+    {
+      "standard_id": "IS-1038",
+      "keyword_id": "KW-STEEL"
+    },
+    {
+      "standard_id": "IS-1038",
+      "keyword_id": "KW-CONSTRUCTION"
+    },
+    {
+      "standard_id": "IS-1948",
+      "keyword_id": "KW-DOOR"
+    },
+    {
+      "standard_id": "IS-1948",
+      "keyword_id": "KW-CONSTRUCTION"
+    },
+    {
+      "standard_id": "IS-4021",
+      "keyword_id": "KW-WOOD"
+    },
+    {
+      "standard_id": "IS-4021",
+      "keyword_id": "KW-DOOR"
+    },
+    {
+      "standard_id": "IS-4021",
+      "keyword_id": "KW-CONSTRUCTION"
+    }
+  ],
+  "standard_relationships": [
+    {
+      "id": "REL-1",
+      "source_standard_id": "IS-456",
+      "target_standard_id": "IS-383",
+      "relationship_type": "NORMATIVE_REFERENCE"
+    },
+    {
+      "id": "REL-2",
+      "source_standard_id": "IS-456",
+      "target_standard_id": "IS-1786",
+      "relationship_type": "NORMATIVE_REFERENCE"
+    },
+    {
+      "id": "REL-3",
+      "source_standard_id": "IS-10262",
+      "target_standard_id": "IS-456",
+      "relationship_type": "RELATED"
+    },
+    {
+      "id": "REL-4",
+      "source_standard_id": "IS-3370-1",
+      "target_standard_id": "IS-456",
+      "relationship_type": "NORMATIVE_REFERENCE"
+    }
+  ],
+  "standard_sources": [
+    {
+      "id": "SRC-IS-456-01",
+      "standard_id": "IS-456",
+      "organization": "Bureau of Indian Standards",
+      "source_type": "Official Standard",
+      "url": "https://www.bis.gov.in/standards/IS-456"
+    },
+    {
+      "id": "SRC-IS-800-01",
+      "standard_id": "IS-800",
+      "organization": "Bureau of Indian Standards",
+      "source_type": "Official Standard",
+      "url": "https://www.bis.gov.in/standards/IS-800"
+    },
+    {
+      "id": "SRC-IS-1077-01",
+      "standard_id": "IS-1077",
+      "organization": "Bureau of Indian Standards",
+      "source_type": "Official Standard",
+      "url": "https://www.bis.gov.in/standards/IS-1077"
+    },
+    {
+      "id": "SRC-IS-383-01",
+      "standard_id": "IS-383",
+      "organization": "Bureau of Indian Standards",
+      "source_type": "Official Standard",
+      "url": "https://www.bis.gov.in/standards/IS-383"
+    },
+    {
+      "id": "SRC-IS-1786-01",
+      "standard_id": "IS-1786",
+      "organization": "Bureau of Indian Standards",
+      "source_type": "Official Standard",
+      "url": "https://www.bis.gov.in/standards/IS-1786"
+    },
+    {
+      "id": "SRC-IS-1489-1-01",
+      "standard_id": "IS-1489-1",
+      "organization": "Bureau of Indian Standards",
+      "source_type": "Official Standard",
+      "url": "https://www.bis.gov.in/standards/IS-1489-1"
+    },
+    {
+      "id": "SRC-IS-2062-01",
+      "standard_id": "IS-2062",
+      "organization": "Bureau of Indian Standards",
+      "source_type": "Official Standard",
+      "url": "https://www.bis.gov.in/standards/IS-2062"
+    },
+    {
+      "id": "SRC-IS-4926-01",
+      "standard_id": "IS-4926",
+      "organization": "Bureau of Indian Standards",
+      "source_type": "Official Standard",
+      "url": "https://www.bis.gov.in/standards/IS-4926"
+    },
+    {
+      "id": "SRC-IS-516-01",
+      "standard_id": "IS-516",
+      "organization": "Bureau of Indian Standards",
+      "source_type": "Official Standard",
+      "url": "https://www.bis.gov.in/standards/IS-516"
+    },
+    {
+      "id": "SRC-IS-10262-01",
+      "standard_id": "IS-10262",
+      "organization": "Bureau of Indian Standards",
+      "source_type": "Official Standard",
+      "url": "https://www.bis.gov.in/standards/IS-10262"
+    },
+    {
+      "id": "SRC-IS-2212-01",
+      "standard_id": "IS-2212",
+      "organization": "Bureau of Indian Standards",
+      "source_type": "Official Standard",
+      "url": "https://www.bis.gov.in/standards/IS-2212"
+    },
+    {
+      "id": "SRC-IS-3370-1-01",
+      "standard_id": "IS-3370-1",
+      "organization": "Bureau of Indian Standards",
+      "source_type": "Official Standard",
+      "url": "https://www.bis.gov.in/standards/IS-3370-1"
+    },
+    {
+      "id": "SRC-IS-12269-01",
+      "standard_id": "IS-12269",
+      "organization": "Bureau of Indian Standards",
+      "source_type": "Official Standard",
+      "url": "https://www.bis.gov.in/standards/IS-12269"
+    },
+    {
+      "id": "SRC-IS-8112-01",
+      "standard_id": "IS-8112",
+      "organization": "Bureau of Indian Standards",
+      "source_type": "Official Standard",
+      "url": "https://www.bis.gov.in/standards/IS-8112"
+    },
+    {
+      "id": "SRC-IS-269-01",
+      "standard_id": "IS-269",
+      "organization": "Bureau of Indian Standards",
+      "source_type": "Official Standard",
+      "url": "https://www.bis.gov.in/standards/IS-269"
+    },
+    {
+      "id": "SRC-IS-15622-01",
+      "standard_id": "IS-15622",
+      "organization": "Bureau of Indian Standards",
+      "source_type": "Official Standard",
+      "url": "https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/knowyourstandards/indian_standards/isdetails"
+    },
+    {
+      "id": "SRC-IS-13712-01",
+      "standard_id": "IS-13712",
+      "organization": "Bureau of Indian Standards",
+      "source_type": "Official Standard",
+      "url": "https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/knowyourstandards/indian_standards/isdetails"
+    },
+    {
+      "id": "SRC-IS-504-01",
+      "standard_id": "IS-504",
+      "organization": "Bureau of Indian Standards",
+      "source_type": "Official Standard",
+      "url": "https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/knowyourstandards/indian_standards/isdetails"
+    },
+    {
+      "id": "SRC-IS-13630-01",
+      "standard_id": "IS-13630",
+      "organization": "Bureau of Indian Standards",
+      "source_type": "Official Standard",
+      "url": "https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/knowyourstandards/indian_standards/isdetails"
+    },
+    {
+      "id": "SRC-IS-4457-01",
+      "standard_id": "IS-4457",
+      "organization": "Bureau of Indian Standards",
+      "source_type": "Official Standard",
+      "url": "https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/knowyourstandards/indian_standards/isdetails"
+    },
+    {
+      "id": "SRC-IS-15489-01",
+      "standard_id": "IS-15489",
+      "organization": "Bureau of Indian Standards",
+      "source_type": "Official Standard",
+      "url": "https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/knowyourstandards/indian_standards/isdetails"
+    },
+    {
+      "id": "SRC-IS-2932-01",
+      "standard_id": "IS-2932",
+      "organization": "Bureau of Indian Standards",
+      "source_type": "Official Standard",
+      "url": "https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/knowyourstandards/indian_standards/isdetails"
+    },
+    {
+      "id": "SRC-IS-2339-01",
+      "standard_id": "IS-2339",
+      "organization": "Bureau of Indian Standards",
+      "source_type": "Official Standard",
+      "url": "https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/knowyourstandards/indian_standards/isdetails"
+    },
+    {
+      "id": "SRC-IS-133-01",
+      "standard_id": "IS-133",
+      "organization": "Bureau of Indian Standards",
+      "source_type": "Official Standard",
+      "url": "https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/knowyourstandards/indian_standards/isdetails"
+    },
+    {
+      "id": "SRC-IS-5410-01",
+      "standard_id": "IS-5410",
+      "organization": "Bureau of Indian Standards",
+      "source_type": "Official Standard",
+      "url": "https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/knowyourstandards/indian_standards/isdetails"
+    },
+    {
+      "id": "SRC-IS-4985-01",
+      "standard_id": "IS-4985",
+      "organization": "Bureau of Indian Standards",
+      "source_type": "Official Standard",
+      "url": "https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/knowyourstandards/indian_standards/isdetails"
+    },
+    {
+      "id": "SRC-IS-15328-01",
+      "standard_id": "IS-15328",
+      "organization": "Bureau of Indian Standards",
+      "source_type": "Official Standard",
+      "url": "https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/knowyourstandards/indian_standards/isdetails"
+    },
+    {
+      "id": "SRC-IS-17546-01",
+      "standard_id": "IS-17546",
+      "organization": "Bureau of Indian Standards",
+      "source_type": "Official Standard",
+      "url": "https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/knowyourstandards/indian_standards/isdetails"
+    },
+    {
+      "id": "SRC-IS-1239-1-01",
+      "standard_id": "IS-1239-1",
+      "organization": "Bureau of Indian Standards",
+      "source_type": "Official Standard",
+      "url": "https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/knowyourstandards/indian_standards/isdetails"
+    },
+    {
+      "id": "SRC-IS-17875-01",
+      "standard_id": "IS-17875",
+      "organization": "Bureau of Indian Standards",
+      "source_type": "Official Standard",
+      "url": "https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/knowyourstandards/indian_standards/isdetails"
+    },
+    {
+      "id": "SRC-IS-17650-1-01",
+      "standard_id": "IS-17650-1",
+      "organization": "Bureau of Indian Standards",
+      "source_type": "Official Standard",
+      "url": "https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/knowyourstandards/indian_standards/isdetails"
+    },
+    {
+      "id": "SRC-IS-5329-01",
+      "standard_id": "IS-5329",
+      "organization": "Bureau of Indian Standards",
+      "source_type": "Official Standard",
+      "url": "https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/knowyourstandards/indian_standards/isdetails"
+    },
+    {
+      "id": "SRC-IS-694-01",
+      "standard_id": "IS-694",
+      "organization": "Bureau of Indian Standards",
+      "source_type": "Official Standard",
+      "url": "https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/knowyourstandards/indian_standards/isdetails"
+    },
+    {
+      "id": "SRC-IS-1554-1-01",
+      "standard_id": "IS-1554-1",
+      "organization": "Bureau of Indian Standards",
+      "source_type": "Official Standard",
+      "url": "https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/knowyourstandards/indian_standards/isdetails"
+    },
+    {
+      "id": "SRC-IS-732-01",
+      "standard_id": "IS-732",
+      "organization": "Bureau of Indian Standards",
+      "source_type": "Official Standard",
+      "url": "https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/knowyourstandards/indian_standards/isdetails"
+    },
+    {
+      "id": "SRC-IS-3043-01",
+      "standard_id": "IS-3043",
+      "organization": "Bureau of Indian Standards",
+      "source_type": "Official Standard",
+      "url": "https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/knowyourstandards/indian_standards/isdetails"
+    },
+    {
+      "id": "SRC-IS-302-1-01",
+      "standard_id": "IS-302-1",
+      "organization": "Bureau of Indian Standards",
+      "source_type": "Official Standard",
+      "url": "https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/knowyourstandards/indian_standards/isdetails"
+    },
+    {
+      "id": "SRC-IS-1293-01",
+      "standard_id": "IS-1293",
+      "organization": "Bureau of Indian Standards",
+      "source_type": "Official Standard",
+      "url": "https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/knowyourstandards/indian_standards/isdetails"
+    },
+    {
+      "id": "SRC-IS-374-01",
+      "standard_id": "IS-374",
+      "organization": "Bureau of Indian Standards",
+      "source_type": "Official Standard",
+      "url": "https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/knowyourstandards/indian_standards/isdetails"
+    },
+    {
+      "id": "SRC-IS-2705-01",
+      "standard_id": "IS-2705",
+      "organization": "Bureau of Indian Standards",
+      "source_type": "Official Standard",
+      "url": "https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/knowyourstandards/indian_standards/isdetails"
+    },
+    {
+      "id": "SRC-IS-2925-01",
+      "standard_id": "IS-2925",
+      "organization": "Bureau of Indian Standards",
+      "source_type": "Official Standard",
+      "url": "https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/knowyourstandards/indian_standards/isdetails"
+    },
+    {
+      "id": "SRC-IS-15298-2-01",
+      "standard_id": "IS-15298-2",
+      "organization": "Bureau of Indian Standards",
+      "source_type": "Official Standard",
+      "url": "https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/knowyourstandards/indian_standards/isdetails"
+    },
+    {
+      "id": "SRC-IS-9473-01",
+      "standard_id": "IS-9473",
+      "organization": "Bureau of Indian Standards",
+      "source_type": "Official Standard",
+      "url": "https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/knowyourstandards/indian_standards/isdetails"
+    },
+    {
+      "id": "SRC-IS-3521-01",
+      "standard_id": "IS-3521",
+      "organization": "Bureau of Indian Standards",
+      "source_type": "Official Standard",
+      "url": "https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/knowyourstandards/indian_standards/isdetails"
+    },
+    {
+      "id": "SRC-IS-1179-01",
+      "standard_id": "IS-1179",
+      "organization": "Bureau of Indian Standards",
+      "source_type": "Official Standard",
+      "url": "https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/knowyourstandards/indian_standards/isdetails"
+    },
+    {
+      "id": "SRC-IS-778-01",
+      "standard_id": "IS-778",
+      "organization": "Bureau of Indian Standards",
+      "source_type": "Official Standard",
+      "url": "https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/knowyourstandards/indian_standards/isdetails"
+    },
+    {
+      "id": "SRC-IS-14846-01",
+      "standard_id": "IS-14846",
+      "organization": "Bureau of Indian Standards",
+      "source_type": "Official Standard",
+      "url": "https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/knowyourstandards/indian_standards/isdetails"
+    },
+    {
+      "id": "SRC-IS-13095-01",
+      "standard_id": "IS-13095",
+      "organization": "Bureau of Indian Standards",
+      "source_type": "Official Standard",
+      "url": "https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/knowyourstandards/indian_standards/isdetails"
+    },
+    {
+      "id": "SRC-IS-9338-01",
+      "standard_id": "IS-9338",
+      "organization": "Bureau of Indian Standards",
+      "source_type": "Official Standard",
+      "url": "https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/knowyourstandards/indian_standards/isdetails"
+    },
+    {
+      "id": "SRC-IS-5312-1-01",
+      "standard_id": "IS-5312-1",
+      "organization": "Bureau of Indian Standards",
+      "source_type": "Official Standard",
+      "url": "https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/knowyourstandards/indian_standards/isdetails"
+    },
+    {
+      "id": "SRC-IS-13920-01",
+      "standard_id": "IS-13920",
+      "organization": "Bureau of Indian Standards",
+      "source_type": "Official Standard",
+      "url": "https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/knowyourstandards/indian_standards/isdetails"
+    },
+    {
+      "id": "SRC-IS-875-1-01",
+      "standard_id": "IS-875-1",
+      "organization": "Bureau of Indian Standards",
+      "source_type": "Official Standard",
+      "url": "https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/knowyourstandards/indian_standards/isdetails"
+    },
+    {
+      "id": "SRC-IS-1893-1-01",
+      "standard_id": "IS-1893-1",
+      "organization": "Bureau of Indian Standards",
+      "source_type": "Official Standard",
+      "url": "https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/knowyourstandards/indian_standards/isdetails"
+    },
+    {
+      "id": "SRC-IS-432-1-01",
+      "standard_id": "IS-432-1",
+      "organization": "Bureau of Indian Standards",
+      "source_type": "Official Standard",
+      "url": "https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/knowyourstandards/indian_standards/isdetails"
+    },
+    {
+      "id": "SRC-IS-280-01",
+      "standard_id": "IS-280",
+      "organization": "Bureau of Indian Standards",
+      "source_type": "Official Standard",
+      "url": "https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/knowyourstandards/indian_standards/isdetails"
+    },
+    {
+      "id": "SRC-IS-2202-1-01",
+      "standard_id": "IS-2202-1",
+      "organization": "Bureau of Indian Standards",
+      "source_type": "Official Standard",
+      "url": "https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/knowyourstandards/indian_standards/isdetails"
+    },
+    {
+      "id": "SRC-IS-303-01",
+      "standard_id": "IS-303",
+      "organization": "Bureau of Indian Standards",
+      "source_type": "Official Standard",
+      "url": "https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/knowyourstandards/indian_standards/isdetails"
+    },
+    {
+      "id": "SRC-IS-1038-01",
+      "standard_id": "IS-1038",
+      "organization": "Bureau of Indian Standards",
+      "source_type": "Official Standard",
+      "url": "https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/knowyourstandards/indian_standards/isdetails"
+    },
+    {
+      "id": "SRC-IS-1948-01",
+      "standard_id": "IS-1948",
+      "organization": "Bureau of Indian Standards",
+      "source_type": "Official Standard",
+      "url": "https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/knowyourstandards/indian_standards/isdetails"
+    },
+    {
+      "id": "SRC-IS-4021-01",
+      "standard_id": "IS-4021",
+      "organization": "Bureau of Indian Standards",
+      "source_type": "Official Standard",
+      "url": "https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/knowyourstandards/indian_standards/isdetails"
+    }
+  ]
+}

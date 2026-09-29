@@ -1,0 +1,360 @@
+{
+  "query": "We need to procure reinforcement steel bars for a new college building. The bars will be used in RCC columns, beams and slabs. We require 500 MPa grade deformed bars with suitable bendability, weldability, corrosion resistance, dimensional accuracy and quality certification. The supplier should provide test certificates and ensure that the material conforms to the applicable Indian Standard.",
+  "recommendations": [
+    {
+      "standard_id": "IS-1786",
+      "standard_number": "IS 1786 : 2008",
+      "title": "High Strength Deformed Steel Bars and Wires for Concrete Reinforcement - Specification",
+      "relevance_category": "MODERATE RELEVANCE",
+      "relevance_score": 0.5452,
+      "status": "CURRENT",
+      "version": {
+        "edition": "2008",
+        "status": "CURRENT"
+      },
+      "why_recommended": [
+        "Product matches the standard scope",
+        "Multiple procurement keywords match"
+      ],
+      "evidence": {
+        "matched_products": [
+          "reinforcement steel bars"
+        ],
+        "matched_applications": [],
+        "matched_keywords": [
+          "deformed bars",
+          "Indian Standard",
+          "reinforcement steel bars"
+        ],
+        "scope_match": true,
+        "category_match": false,
+        "sector_match": false
+      },
+      "score_breakdown": {
+        "semantic": 0.788,
+        "product": 0.5,
+        "application": 0.0,
+        "keyword": 0.3,
+        "scope": 1.0,
+        "category_sector": 0.0
+      },
+      "relationships": []
+    },
+    {
+      "standard_id": "IS-1077",
+      "standard_number": "IS 1077 : 1992",
+      "title": "Common Burnt Clay Building Bricks - Specification",
+      "relevance_category": "MODERATE RELEVANCE",
+      "relevance_score": 0.4339,
+      "status": "CURRENT",
+      "version": {
+        "edition": "1992",
+        "status": "CURRENT"
+      },
+      "why_recommended": [
+        "Application is covered by the standard",
+        "Multiple procurement keywords match"
+      ],
+      "evidence": {
+        "matched_products": [],
+        "matched_applications": [
+          "college building construction"
+        ],
+        "matched_keywords": [
+          "Indian Standard"
+        ],
+        "scope_match": true,
+        "category_match": false,
+        "sector_match": false
+      },
+      "score_breakdown": {
+        "semantic": 0.716,
+        "product": 0.0,
+        "application": 0.25,
+        "keyword": 0.1,
+        "scope": 1.0,
+        "category_sector": 0.0
+      },
+      "relationships": []
+    },
+    {
+      "standard_id": "IS-2062",
+      "standard_number": "IS 2062 : 2011",
+      "title": "Hot Rolled Medium and High Tensile Structural Steel - Specification",
+      "relevance_category": "LOW RELEVANCE",
+      "relevance_score": 0.3133,
+      "status": "CURRENT",
+      "version": {
+        "edition": "2011",
+        "status": "CURRENT"
+      },
+      "why_recommended": [
+        "Multiple procurement keywords match"
+      ],
+      "evidence": {
+        "matched_products": [],
+        "matched_applications": [],
+        "matched_keywords": [
+          "Indian Standard"
+        ],
+        "scope_match": false,
+        "category_match": false,
+        "sector_match": false
+      },
+      "score_breakdown": {
+        "semantic": 0.7582,
+        "product": 0.0,
+        "application": 0.0,
+        "keyword": 0.1,
+        "scope": 0.0,
+        "category_sector": 0.0
+      },
+      "relationships": []
+    },
+    {
+      "standard_id": "IS-456",
+      "standard_number": "IS 456 : 2000",
+      "title": "Plain and Reinforced Concrete - Code of Practice",
+      "relevance_category": "LOW RELEVANCE",
+      "relevance_score": 0.3099,
+      "status": "CURRENT",
+      "version": {
+        "edition": "2000",
+        "status": "CURRENT"
+      },
+      "why_recommended": [
+        "Multiple procurement keywords match"
+      ],
+      "evidence": {
+        "matched_products": [],
+        "matched_applications": [],
+        "matched_keywords": [
+          "Indian Standard"
+        ],
+        "scope_match": false,
+        "category_match": false,
+        "sector_match": false
+      },
+      "score_breakdown": {
+        "semantic": 0.7498,
+        "product": 0.0,
+        "application": 0.0,
+        "keyword": 0.1,
+        "scope": 0.0,
+        "category_sector": 0.0
+      },
+      "relationships": [
+        "NORMATIVE_REFERENCE",
+        "NORMATIVE_REFERENCE"
+      ]
+    },
+    {
+      "standard_id": "IS-800",
+      "standard_number": "IS 800 : 2007",
+      "title": "General Construction in Steel - Code of Practice",
+      "relevance_category": "LOW RELEVANCE",
+      "relevance_score": 0.3081,
+      "status": "CURRENT",
+      "version": {
+        "edition": "2007",
+        "status": "CURRENT"
+      },
+      "why_recommended": [
+        "Multiple procurement keywords match"
+      ],
+      "evidence": {
+        "matched_products": [],
+        "matched_applications": [],
+        "matched_keywords": [
+          "Indian Standard"
+        ],
+        "scope_match": false,
+        "category_match": false,
+        "sector_match": false
+      },
+      "score_breakdown": {
+        "semantic": 0.7454,
+        "product": 0.0,
+        "application": 0.0,
+        "keyword": 0.1,
+        "scope": 0.0,
+        "category_sector": 0.0
+      },
+      "relationships": []
+    },
+    {
+      "standard_id": "IS-516",
+      "standard_number": "IS 516 : 1959",
+      "title": "Method of Tests for Strength of Concrete",
+      "relevance_category": "LOW RELEVANCE",
+      "relevance_score": 0.3074,
+      "status": "CURRENT",
+      "version": {
+        "edition": "1959",
+        "status": "CURRENT"
+      },
+      "why_recommended": [
+        "Multiple procurement keywords match"
+      ],
+      "evidence": {
+        "matched_products": [],
+        "matched_applications": [],
+        "matched_keywords": [
+          "Indian Standard"
+        ],
+        "scope_match": false,
+        "category_match": false,
+        "sector_match": false
+      },
+      "score_breakdown": {
+        "semantic": 0.7436,
+        "product": 0.0,
+        "application": 0.0,
+        "keyword": 0.1,
+        "scope": 0.0,
+        "category_sector": 0.0
+      },
+      "relationships": []
+    },
+    {
+      "standard_id": "IS-3370-1",
+      "standard_number": "IS 3370 (Part 1) : 2021",
+      "title": "Concrete Structures for Storage of Liquids - Code of Practice - Part 1 General Requirements",
+      "relevance_category": "LOW RELEVANCE",
+      "relevance_score": 0.3019,
+      "status": "CURRENT",
+      "version": {
+        "edition": "2021",
+        "status": "CURRENT"
+      },
+      "why_recommended": [
+        "Multiple procurement keywords match"
+      ],
+      "evidence": {
+        "matched_products": [],
+        "matched_applications": [],
+        "matched_keywords": [
+          "Indian Standard"
+        ],
+        "scope_match": false,
+        "category_match": false,
+        "sector_match": false
+      },
+      "score_breakdown": {
+        "semantic": 0.7297,
+        "product": 0.0,
+        "application": 0.0,
+        "keyword": 0.1,
+        "scope": 0.0,
+        "category_sector": 0.0
+      },
+      "relationships": [
+        "NORMATIVE_REFERENCE"
+      ]
+    },
+    {
+      "standard_id": "IS-269",
+      "standard_number": "IS 269 : 2015",
+      "title": "Ordinary Portland Cement - Specification",
+      "relevance_category": "LOW RELEVANCE",
+      "relevance_score": 0.2985,
+      "status": "CURRENT",
+      "version": {
+        "edition": "2015",
+        "status": "CURRENT"
+      },
+      "why_recommended": [
+        "Multiple procurement keywords match"
+      ],
+      "evidence": {
+        "matched_products": [],
+        "matched_applications": [],
+        "matched_keywords": [
+          "Indian Standard"
+        ],
+        "scope_match": false,
+        "category_match": false,
+        "sector_match": false
+      },
+      "score_breakdown": {
+        "semantic": 0.7212,
+        "product": 0.0,
+        "application": 0.0,
+        "keyword": 0.1,
+        "scope": 0.0,
+        "category_sector": 0.0
+      },
+      "relationships": []
+    },
+    {
+      "standard_id": "IS-12269",
+      "standard_number": "IS 12269 : 2013",
+      "title": "Ordinary Portland Cement, 53 Grade - Specification",
+      "relevance_category": "LOW RELEVANCE",
+      "relevance_score": 0.2984,
+      "status": "CURRENT",
+      "version": {
+        "edition": "2013",
+        "status": "CURRENT"
+      },
+      "why_recommended": [
+        "Multiple procurement keywords match"
+      ],
+      "evidence": {
+        "matched_products": [],
+        "matched_applications": [],
+        "matched_keywords": [
+          "Indian Standard"
+        ],
+        "scope_match": false,
+        "category_match": false,
+        "sector_match": false
+      },
+      "score_breakdown": {
+        "semantic": 0.721,
+        "product": 0.0,
+        "application": 0.0,
+        "keyword": 0.1,
+        "scope": 0.0,
+        "category_sector": 0.0
+      },
+      "relationships": []
+    },
+    {
+      "standard_id": "IS-8112",
+      "standard_number": "IS 8112 : 2013",
+      "title": "Ordinary Portland Cement, 43 Grade - Specification",
+      "relevance_category": "LOW RELEVANCE",
+      "relevance_score": 0.2978,
+      "status": "CURRENT",
+      "version": {
+        "edition": "2013",
+        "status": "CURRENT"
+      },
+      "why_recommended": [
+        "Multiple procurement keywords match"
+      ],
+      "evidence": {
+        "matched_products": [],
+        "matched_applications": [],
+        "matched_keywords": [
+          "Indian Standard"
+        ],
+        "scope_match": false,
+        "category_match": false,
+        "sector_match": false
+      },
+      "score_breakdown": {
+        "semantic": 0.7195,
+        "product": 0.0,
+        "application": 0.0,
+        "keyword": 0.1,
+        "scope": 0.0,
+        "category_sector": 0.0
+      },
+      "relationships": []
+    }
+  ],
+  "candidate_count": 10,
+  "message": null
+}

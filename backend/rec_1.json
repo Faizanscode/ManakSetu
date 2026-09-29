@@ -1,0 +1,601 @@
+{
+  "query": "We need to procure reinforcement steel bars for a new college building. The bars will be used in RCC columns, beams and slabs. We require 500 MPa grade deformed bars with suitable bendability, weldability, corrosion resistance, dimensional accuracy and quality certification. The supplier should provide test certificates and ensure that the material conforms to the applicable Indian Standard.",
+  "recommendations": [
+    {
+      "standard_id": "IS-1786",
+      "standard_number": "IS 1786 : 2008",
+      "title": "High Strength Deformed Steel Bars and Wires for Concrete Reinforcement - Specification",
+      "relevance_category": "MODERATE RELEVANCE",
+      "relevance_score": 0.5268,
+      "status": "CURRENT",
+      "version": {
+        "edition": "2008",
+        "status": "CURRENT",
+        "publication_date": null,
+        "effective_date": null
+      },
+      "why_recommended": [
+        "Product matches the standard scope",
+        "Multiple procurement keywords match"
+      ],
+      "explanation": {
+        "summary": "Recommended based on the available knowledge-base evidence.",
+        "product_matches": [
+          "reinforcement steel bars"
+        ],
+        "application_matches": [],
+        "keyword_matches": [
+          "Indian Standard"
+        ],
+        "scope_match": true
+      },
+      "evidence": [
+        {
+          "type": "PRODUCT_MATCH",
+          "label": "Product Match",
+          "description": "Requirement product(s) 'reinforcement steel bars' found in standard scope.",
+          "source": null
+        },
+        {
+          "type": "KEYWORD_MATCH",
+          "label": "Keyword Match",
+          "description": "Requirement keyword(s) 'Indian Standard' match standard terms.",
+          "source": null
+        },
+        {
+          "type": "SCOPE_MATCH",
+          "label": "Scope Match",
+          "description": "The procurement requirement's product and/or application match the standard's stored scope.",
+          "source": {
+            "organization": "Bureau of Indian Standards",
+            "source_type": "Official Standard",
+            "title": null,
+            "url": "https://www.bis.gov.in/standards/IS-1786",
+            "document_name": null,
+            "page": null,
+            "section": null,
+            "retrieved_at": "2026-09-26T19:35:13.527048+05:30"
+          }
+        }
+      ],
+      "score_breakdown": {
+        "semantic": 0.7812,
+        "product": 0.5,
+        "application": 0.0,
+        "keyword": 0.1429,
+        "scope": 1.0,
+        "category_sector": 0.0
+      },
+      "relationships": [],
+      "sources": [
+        {
+          "organization": "Bureau of Indian Standards",
+          "source_type": "Official Standard",
+          "title": null,
+          "url": "https://www.bis.gov.in/standards/IS-1786",
+          "document_name": null,
+          "page": null,
+          "section": null,
+          "retrieved_at": "2026-09-26T19:35:13.527048+05:30"
+        }
+      ]
+    },
+    {
+      "standard_id": "IS-2062",
+      "standard_number": "IS 2062 : 2011",
+      "title": "Hot Rolled Medium and High Tensile Structural Steel - Specification",
+      "relevance_category": "LOW RELEVANCE",
+      "relevance_score": 0.3143,
+      "status": "CURRENT",
+      "version": {
+        "edition": "2011",
+        "status": "CURRENT",
+        "publication_date": null,
+        "effective_date": null
+      },
+      "why_recommended": [
+        "Multiple procurement keywords match"
+      ],
+      "explanation": {
+        "summary": "Recommended based on the available knowledge-base evidence.",
+        "product_matches": [],
+        "application_matches": [],
+        "keyword_matches": [
+          "Indian Standard"
+        ],
+        "scope_match": false
+      },
+      "evidence": [
+        {
+          "type": "KEYWORD_MATCH",
+          "label": "Keyword Match",
+          "description": "Requirement keyword(s) 'Indian Standard' match standard terms.",
+          "source": null
+        }
+      ],
+      "score_breakdown": {
+        "semantic": 0.7501,
+        "product": 0.0,
+        "application": 0.0,
+        "keyword": 0.1429,
+        "scope": 0.0,
+        "category_sector": 0.0
+      },
+      "relationships": [],
+      "sources": [
+        {
+          "organization": "Bureau of Indian Standards",
+          "source_type": "Official Standard",
+          "title": null,
+          "url": "https://www.bis.gov.in/standards/IS-2062",
+          "document_name": null,
+          "page": null,
+          "section": null,
+          "retrieved_at": "2026-09-26T19:35:13.527048+05:30"
+        }
+      ]
+    },
+    {
+      "standard_id": "IS-456",
+      "standard_number": "IS 456 : 2000",
+      "title": "Plain and Reinforced Concrete - Code of Practice",
+      "relevance_category": "LOW RELEVANCE",
+      "relevance_score": 0.3111,
+      "status": "CURRENT",
+      "version": {
+        "edition": "2000",
+        "status": "CURRENT",
+        "publication_date": null,
+        "effective_date": null
+      },
+      "why_recommended": [
+        "Multiple procurement keywords match"
+      ],
+      "explanation": {
+        "summary": "Recommended based on the available knowledge-base evidence.",
+        "product_matches": [],
+        "application_matches": [],
+        "keyword_matches": [
+          "Indian Standard"
+        ],
+        "scope_match": false
+      },
+      "evidence": [
+        {
+          "type": "KEYWORD_MATCH",
+          "label": "Keyword Match",
+          "description": "Requirement keyword(s) 'Indian Standard' match standard terms.",
+          "source": null
+        }
+      ],
+      "score_breakdown": {
+        "semantic": 0.742,
+        "product": 0.0,
+        "application": 0.0,
+        "keyword": 0.1429,
+        "scope": 0.0,
+        "category_sector": 0.0
+      },
+      "relationships": [
+        {
+          "related_standard": "IS-383",
+          "relationship_type": "NORMATIVE_REFERENCE",
+          "description": null,
+          "source": null
+        },
+        {
+          "related_standard": "IS-1786",
+          "relationship_type": "NORMATIVE_REFERENCE",
+          "description": null,
+          "source": null
+        }
+      ],
+      "sources": [
+        {
+          "organization": "Bureau of Indian Standards",
+          "source_type": "Official Standard",
+          "title": null,
+          "url": "https://www.bis.gov.in/standards/IS-456",
+          "document_name": null,
+          "page": null,
+          "section": null,
+          "retrieved_at": "2026-09-26T19:35:13.527048+05:30"
+        }
+      ]
+    },
+    {
+      "standard_id": "IS-516",
+      "standard_number": "IS 516 : 1959",
+      "title": "Method of Tests for Strength of Concrete",
+      "relevance_category": "LOW RELEVANCE",
+      "relevance_score": 0.3097,
+      "status": "CURRENT",
+      "version": {
+        "edition": "1959",
+        "status": "CURRENT",
+        "publication_date": null,
+        "effective_date": null
+      },
+      "why_recommended": [
+        "Multiple procurement keywords match"
+      ],
+      "explanation": {
+        "summary": "Recommended based on the available knowledge-base evidence.",
+        "product_matches": [],
+        "application_matches": [],
+        "keyword_matches": [
+          "Indian Standard"
+        ],
+        "scope_match": false
+      },
+      "evidence": [
+        {
+          "type": "KEYWORD_MATCH",
+          "label": "Keyword Match",
+          "description": "Requirement keyword(s) 'Indian Standard' match standard terms.",
+          "source": null
+        }
+      ],
+      "score_breakdown": {
+        "semantic": 0.7386,
+        "product": 0.0,
+        "application": 0.0,
+        "keyword": 0.1429,
+        "scope": 0.0,
+        "category_sector": 0.0
+      },
+      "relationships": [],
+      "sources": [
+        {
+          "organization": "Bureau of Indian Standards",
+          "source_type": "Official Standard",
+          "title": null,
+          "url": "https://www.bis.gov.in/standards/IS-516",
+          "document_name": null,
+          "page": null,
+          "section": null,
+          "retrieved_at": "2026-09-26T19:35:13.527048+05:30"
+        }
+      ]
+    },
+    {
+      "standard_id": "IS-800",
+      "standard_number": "IS 800 : 2007",
+      "title": "General Construction in Steel - Code of Practice",
+      "relevance_category": "LOW RELEVANCE",
+      "relevance_score": 0.3094,
+      "status": "CURRENT",
+      "version": {
+        "edition": "2007",
+        "status": "CURRENT",
+        "publication_date": null,
+        "effective_date": null
+      },
+      "why_recommended": [
+        "Multiple procurement keywords match"
+      ],
+      "explanation": {
+        "summary": "Recommended based on the available knowledge-base evidence.",
+        "product_matches": [],
+        "application_matches": [],
+        "keyword_matches": [
+          "Indian Standard"
+        ],
+        "scope_match": false
+      },
+      "evidence": [
+        {
+          "type": "KEYWORD_MATCH",
+          "label": "Keyword Match",
+          "description": "Requirement keyword(s) 'Indian Standard' match standard terms.",
+          "source": null
+        }
+      ],
+      "score_breakdown": {
+        "semantic": 0.7377,
+        "product": 0.0,
+        "application": 0.0,
+        "keyword": 0.1429,
+        "scope": 0.0,
+        "category_sector": 0.0
+      },
+      "relationships": [],
+      "sources": [
+        {
+          "organization": "Bureau of Indian Standards",
+          "source_type": "Official Standard",
+          "title": null,
+          "url": "https://www.bis.gov.in/standards/IS-800",
+          "document_name": null,
+          "page": null,
+          "section": null,
+          "retrieved_at": "2026-09-26T19:35:13.527048+05:30"
+        }
+      ]
+    },
+    {
+      "standard_id": "IS-3370-1",
+      "standard_number": "IS 3370 (Part 1) : 2021",
+      "title": "Concrete Structures for Storage of Liquids - Code of Practice - Part 1 General Requirements",
+      "relevance_category": "LOW RELEVANCE",
+      "relevance_score": 0.3039,
+      "status": "CURRENT",
+      "version": {
+        "edition": "2021",
+        "status": "CURRENT",
+        "publication_date": null,
+        "effective_date": null
+      },
+      "why_recommended": [
+        "Multiple procurement keywords match"
+      ],
+      "explanation": {
+        "summary": "Recommended based on the available knowledge-base evidence.",
+        "product_matches": [],
+        "application_matches": [],
+        "keyword_matches": [
+          "Indian Standard"
+        ],
+        "scope_match": false
+      },
+      "evidence": [
+        {
+          "type": "KEYWORD_MATCH",
+          "label": "Keyword Match",
+          "description": "Requirement keyword(s) 'Indian Standard' match standard terms.",
+          "source": null
+        }
+      ],
+      "score_breakdown": {
+        "semantic": 0.7241,
+        "product": 0.0,
+        "application": 0.0,
+        "keyword": 0.1429,
+        "scope": 0.0,
+        "category_sector": 0.0
+      },
+      "relationships": [
+        {
+          "related_standard": "IS-456",
+          "relationship_type": "NORMATIVE_REFERENCE",
+          "description": null,
+          "source": null
+        }
+      ],
+      "sources": [
+        {
+          "organization": "Bureau of Indian Standards",
+          "source_type": "Official Standard",
+          "title": null,
+          "url": "https://www.bis.gov.in/standards/IS-3370-1",
+          "document_name": null,
+          "page": null,
+          "section": null,
+          "retrieved_at": "2026-09-26T19:35:13.527048+05:30"
+        }
+      ]
+    },
+    {
+      "standard_id": "IS-8112",
+      "standard_number": "IS 8112 : 2013",
+      "title": "Ordinary Portland Cement, 43 Grade - Specification",
+      "relevance_category": "LOW RELEVANCE",
+      "relevance_score": 0.3019,
+      "status": "CURRENT",
+      "version": {
+        "edition": "2013",
+        "status": "CURRENT",
+        "publication_date": null,
+        "effective_date": null
+      },
+      "why_recommended": [
+        "Multiple procurement keywords match"
+      ],
+      "explanation": {
+        "summary": "Recommended based on the available knowledge-base evidence.",
+        "product_matches": [],
+        "application_matches": [],
+        "keyword_matches": [
+          "Indian Standard"
+        ],
+        "scope_match": false
+      },
+      "evidence": [
+        {
+          "type": "KEYWORD_MATCH",
+          "label": "Keyword Match",
+          "description": "Requirement keyword(s) 'Indian Standard' match standard terms.",
+          "source": null
+        }
+      ],
+      "score_breakdown": {
+        "semantic": 0.719,
+        "product": 0.0,
+        "application": 0.0,
+        "keyword": 0.1429,
+        "scope": 0.0,
+        "category_sector": 0.0
+      },
+      "relationships": [],
+      "sources": [
+        {
+          "organization": "Bureau of Indian Standards",
+          "source_type": "Official Standard",
+          "title": null,
+          "url": "https://www.bis.gov.in/standards/IS-8112",
+          "document_name": null,
+          "page": null,
+          "section": null,
+          "retrieved_at": "2026-09-26T19:35:13.527048+05:30"
+        }
+      ]
+    },
+    {
+      "standard_id": "IS-12269",
+      "standard_number": "IS 12269 : 2013",
+      "title": "Ordinary Portland Cement, 53 Grade - Specification",
+      "relevance_category": "LOW RELEVANCE",
+      "relevance_score": 0.3012,
+      "status": "CURRENT",
+      "version": {
+        "edition": "2013",
+        "status": "CURRENT",
+        "publication_date": null,
+        "effective_date": null
+      },
+      "why_recommended": [
+        "Multiple procurement keywords match"
+      ],
+      "explanation": {
+        "summary": "Recommended based on the available knowledge-base evidence.",
+        "product_matches": [],
+        "application_matches": [],
+        "keyword_matches": [
+          "Indian Standard"
+        ],
+        "scope_match": false
+      },
+      "evidence": [
+        {
+          "type": "KEYWORD_MATCH",
+          "label": "Keyword Match",
+          "description": "Requirement keyword(s) 'Indian Standard' match standard terms.",
+          "source": null
+        }
+      ],
+      "score_breakdown": {
+        "semantic": 0.7172,
+        "product": 0.0,
+        "application": 0.0,
+        "keyword": 0.1429,
+        "scope": 0.0,
+        "category_sector": 0.0
+      },
+      "relationships": [],
+      "sources": [
+        {
+          "organization": "Bureau of Indian Standards",
+          "source_type": "Official Standard",
+          "title": null,
+          "url": "https://www.bis.gov.in/standards/IS-12269",
+          "document_name": null,
+          "page": null,
+          "section": null,
+          "retrieved_at": "2026-09-26T19:35:13.527048+05:30"
+        }
+      ]
+    },
+    {
+      "standard_id": "IS-269",
+      "standard_number": "IS 269 : 2015",
+      "title": "Ordinary Portland Cement - Specification",
+      "relevance_category": "LOW RELEVANCE",
+      "relevance_score": 0.3011,
+      "status": "CURRENT",
+      "version": {
+        "edition": "2015",
+        "status": "CURRENT",
+        "publication_date": null,
+        "effective_date": null
+      },
+      "why_recommended": [
+        "Multiple procurement keywords match"
+      ],
+      "explanation": {
+        "summary": "Recommended based on the available knowledge-base evidence.",
+        "product_matches": [],
+        "application_matches": [],
+        "keyword_matches": [
+          "Indian Standard"
+        ],
+        "scope_match": false
+      },
+      "evidence": [
+        {
+          "type": "KEYWORD_MATCH",
+          "label": "Keyword Match",
+          "description": "Requirement keyword(s) 'Indian Standard' match standard terms.",
+          "source": null
+        }
+      ],
+      "score_breakdown": {
+        "semantic": 0.7172,
+        "product": 0.0,
+        "application": 0.0,
+        "keyword": 0.1429,
+        "scope": 0.0,
+        "category_sector": 0.0
+      },
+      "relationships": [],
+      "sources": [
+        {
+          "organization": "Bureau of Indian Standards",
+          "source_type": "Official Standard",
+          "title": null,
+          "url": "https://www.bis.gov.in/standards/IS-269",
+          "document_name": null,
+          "page": null,
+          "section": null,
+          "retrieved_at": "2026-09-26T19:35:13.527048+05:30"
+        }
+      ]
+    },
+    {
+      "standard_id": "IS-4926",
+      "standard_number": "IS 4926 : 2003",
+      "title": "Ready-Mixed Concrete - Code of Practice",
+      "relevance_category": "LOW RELEVANCE",
+      "relevance_score": 0.2988,
+      "status": "CURRENT",
+      "version": {
+        "edition": "2003",
+        "status": "CURRENT",
+        "publication_date": null,
+        "effective_date": null
+      },
+      "why_recommended": [
+        "Multiple procurement keywords match"
+      ],
+      "explanation": {
+        "summary": "Recommended based on the available knowledge-base evidence.",
+        "product_matches": [],
+        "application_matches": [],
+        "keyword_matches": [
+          "Indian Standard"
+        ],
+        "scope_match": false
+      },
+      "evidence": [
+        {
+          "type": "KEYWORD_MATCH",
+          "label": "Keyword Match",
+          "description": "Requirement keyword(s) 'Indian Standard' match standard terms.",
+          "source": null
+        }
+      ],
+      "score_breakdown": {
+        "semantic": 0.7113,
+        "product": 0.0,
+        "application": 0.0,
+        "keyword": 0.1429,
+        "scope": 0.0,
+        "category_sector": 0.0
+      },
+      "relationships": [],
+      "sources": [
+        {
+          "organization": "Bureau of Indian Standards",
+          "source_type": "Official Standard",
+          "title": null,
+          "url": "https://www.bis.gov.in/standards/IS-4926",
+          "document_name": null,
+          "page": null,
+          "section": null,
+          "retrieved_at": "2026-09-26T19:35:13.527048+05:30"
+        }
+      ]
+    }
+  ],
+  "candidate_count": 10,
+  "message": null
+}
