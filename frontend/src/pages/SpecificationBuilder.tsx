@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import { FileText, FolderOpen, Loader2, AlertTriangle, FileSearch, BookOpen } from 'lucide-react';
 import { Link, useParams, useNavigate } from 'react-router-dom';
 import { SpecificationGenerator } from '../components/SpecificationGenerator';
+import { API_BASE_URL } from '../config';
 
 export default function SpecificationBuilder() {
   const { id } = useParams();
@@ -18,7 +19,7 @@ export default function SpecificationBuilder() {
       setLoading(true);
       setError(null);
       try {
-        const response = await fetch(`http://127.0.0.1:8002/api/history/${id}`);
+        const response = await fetch(`${API_BASE_URL}/history/${id}`);
         if (!response.ok) {
           throw new Error('Failed to load analysis data');
         }

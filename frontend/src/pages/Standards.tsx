@@ -1,5 +1,6 @@
 import { useState, useEffect, useMemo } from 'react';
 import { BookOpen, AlertCircle, RefreshCw, Search, X } from 'lucide-react';
+import { API_BASE_URL } from '../config';
 
 interface Sector {
   id: string;
@@ -48,8 +49,8 @@ export default function Standards() {
     setError(null);
     try {
       const [standardsRes, sectorsRes] = await Promise.all([
-        fetch('http://127.0.0.1:8002/api/standards?limit=1000'),
-        fetch('http://127.0.0.1:8002/api/standards/sectors'),
+        fetch(`${API_BASE_URL}/standards?limit=1000`),
+        fetch(`${API_BASE_URL}/standards/sectors`),
       ]);
       if (!standardsRes.ok) throw new Error(`Failed to fetch standards: ${standardsRes.statusText}`);
       if (!sectorsRes.ok) throw new Error(`Failed to fetch sectors: ${sectorsRes.statusText}`);

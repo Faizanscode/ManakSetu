@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { FileSearch, AlertCircle, CheckCircle2, Loader2, BookOpen, ChevronDown, ChevronUp, AlertTriangle } from 'lucide-react';
 import ErrorBoundary from '../components/ErrorBoundary';
 import { SpecificationGenerator } from '../components/SpecificationGenerator';
+import { API_BASE_URL } from '../config';
 interface EvidenceSource {
   organization: string;
   source_type: string;
@@ -125,7 +126,7 @@ export default function NewAnalysis() {
 
     
     try {
-      const response = await fetch('http://127.0.0.1:8002/api/analyze/', {
+      const response = await fetch(`${API_BASE_URL}/analyze/`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
@@ -167,7 +168,7 @@ export default function NewAnalysis() {
     setRecData(null);
 
     try {
-      const response = await fetch('http://127.0.0.1:8002/api/recommendations/', {
+      const response = await fetch(`${API_BASE_URL}/recommendations/`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
@@ -212,7 +213,7 @@ export default function NewAnalysis() {
     setGapData(null);
 
     try {
-      const response = await fetch('http://127.0.0.1:8002/api/gaps/', {
+      const response = await fetch(`${API_BASE_URL}/gaps/`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'

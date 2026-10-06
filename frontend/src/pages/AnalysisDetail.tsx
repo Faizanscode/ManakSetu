@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { ArrowLeft, Loader2, AlertTriangle, Download, FileText } from 'lucide-react';
 import ErrorBoundary from '../components/ErrorBoundary';
+import { API_BASE_URL } from '../config';
 
 export default function AnalysisDetail() {
   const { id } = useParams<{ id: string }>();
@@ -12,7 +13,7 @@ export default function AnalysisDetail() {
   useEffect(() => {
     const fetchDetail = async () => {
       try {
-        const response = await fetch(`http://127.0.0.1:8002/api/history/${id}`);
+        const response = await fetch(`${API_BASE_URL}/history/${id}`);
         if (!response.ok) {
           throw new Error('Failed to load analysis details');
         }

@@ -1,6 +1,7 @@
 import { useState, useEffect, useMemo } from 'react';
 import { Clock, FileText, Loader2, AlertTriangle, ArrowRight, Trash2 } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import { API_BASE_URL } from '../config';
 
 interface HistoryItem {
   id: string;
@@ -26,7 +27,7 @@ export default function History() {
 
   const fetchHistory = async () => {
     try {
-      const response = await fetch('http://127.0.0.1:8002/api/history/');
+      const response = await fetch(`${API_BASE_URL}/history/`);
       if (!response.ok) {
         throw new Error('Failed to fetch history');
       }
@@ -48,7 +49,7 @@ export default function History() {
     
     setDeletingId(id);
     try {
-      const response = await fetch(`http://127.0.0.1:8002/api/history/${id}`, {
+      const response = await fetch(`${API_BASE_URL}/history/${id}`, {
         method: 'DELETE',
       });
       if (!response.ok) throw new Error('Failed to delete analysis');

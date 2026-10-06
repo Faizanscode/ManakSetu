@@ -9,6 +9,7 @@ import {
   Save,
   BookOpen
 } from 'lucide-react';
+import { API_BASE_URL } from '../config';
 
 interface SpecificationGeneratorProps {
   requirement: string;
@@ -42,7 +43,7 @@ export const SpecificationGenerator: React.FC<SpecificationGeneratorProps> = ({
     setError(null);
     setSaveSuccess(false);
     try {
-      const response = await fetch('http://127.0.0.1:8002/api/specifications/generate', {
+      const response = await fetch(`${API_BASE_URL}/specifications/generate`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
@@ -73,7 +74,7 @@ export const SpecificationGenerator: React.FC<SpecificationGeneratorProps> = ({
     setSaving(true);
     setSaveError(null);
     try {
-      const url = existingHistoryId ? `http://127.0.0.1:8002/api/history/${existingHistoryId}` : 'http://127.0.0.1:8002/api/history/';
+      const url = existingHistoryId ? `${API_BASE_URL}/history/${existingHistoryId}` : `${API_BASE_URL}/history/`;
       const method = existingHistoryId ? 'PUT' : 'POST';
 
       const response = await fetch(url, {

@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import { useTheme } from '../hooks/useTheme';
+import { API_BASE_URL } from '../config';
 
 export default function Settings() {
   const { theme, setTheme } = useTheme();
@@ -8,8 +9,7 @@ export default function Settings() {
   useEffect(() => {
     const checkHealth = async () => {
       try {
-        const url = import.meta.env.VITE_API_BASE_URL || 'http://127.0.0.1:8002/api';
-        const res = await fetch(`${url}/health`);
+        const res = await fetch(`${API_BASE_URL}/health`);
         if (res.ok) {
           setApiStatus('connected');
         } else {
