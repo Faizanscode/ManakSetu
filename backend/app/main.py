@@ -7,6 +7,7 @@ app = FastAPI(title="ManakSetu API")
 # Allow requests from the frontend Vite dev server
 origins = [
     "http://localhost:5174",
+    "https://manak-setu-liard.vercel.app",
 ]
 
 app.add_middleware(
